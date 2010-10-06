@@ -1,0 +1,15 @@
+---
+layout: home
+title: Throughnothing.com
+---
+{% for page in paginator.posts %}
+<div class="post">
+	<div class="data">
+		<h2><a href="{{page.url}}">{{page.title}}</a></h2>
+		<span class="date">{{page.date | date_to_long_string}}</span>
+	</div>
+	<div class="content">
+		{{page.content}}
+	</div>
+</div>
+{% endfor %}
