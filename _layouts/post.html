@@ -6,6 +6,10 @@ layout: default
 		<h2>{{page.title}}</h2>
 		<span>{{page.date | date_to_long_string}}</span>
 	</div>
+	{% if page.kml %}
+	<script>$(document).ready(function(){})</script>
+		<div class="daymapcanvas"></div>
+	{% endif %}
 	<div class="content">
 		{{content}}
 	</div>
