@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp -a ./_site/* /var/www/
+rsync --recursive --delete _site/ /var/www/travel.throughnothing.com
