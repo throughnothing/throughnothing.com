@@ -1,4 +1,5 @@
 TODO:
+	Work on color scheme (http://www.colorblender.com/)
 	Make background image Wider
 
 Main nav:
