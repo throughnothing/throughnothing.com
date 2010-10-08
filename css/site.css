@@ -1,7 +1,7 @@
 body {
 	background-image: url('/images/background.png');
 	background-color: #1f1f21;
-	width: 900px;
+	width: 800px;
 	margin: 0 auto;
 	padding-top: 15px;
 	font: 16px Trebuchet, sans-serif;
@@ -115,6 +115,7 @@ div.day_map {
 
 /* Pagination */
 div.pagination {
+	width: 100%;
 	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
@@ -128,10 +129,10 @@ div.pagination a {
 div.pagination a:hover {
 	color: #bfa384;
 }
-div.pagination a.prev {
+div.pagination span.prev {
 	float: left;
 }
-div.pagination a.next {
+div.pagination span.next {
 	float: right;
 }
 /* End Pagination */
