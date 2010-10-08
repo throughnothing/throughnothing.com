@@ -1,0 +1,16 @@
+Main nav:
+	Home (logo + text)
+	Trips
+	Photos (?)
+	Map (full-screen world map)
+	About
+
+
+Trips listing(Broken up by year?):
+	- linked Entry listing (w/photo thumbnail(s) from date?)
+
+
+Homepage:
+	Show 1-3 most recent articles, max.
+
+
