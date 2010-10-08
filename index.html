@@ -23,11 +23,19 @@ scripts:
 {{paginator.total_pages}}
 <div class="pagination">
 	{% if paginator.total_pages > paginator.page %}
-		<a class="prev" href="/page{{ paginator.next_page}}/">&lt;&lt; Previous</a>
+		<span class="prev">
+			&laquo; <a href="/page{{ paginator.next_page}}/">Previous</a>
+		</span>
 	{% endif %}
 	{% if paginator.page > 2 %}
-		<a href="/page{{ paginator.previous_page}}/">Next &gt;&gt;</a>
-	{% else if paginator.page == 2 %}
-		<a class="next" href="/">Next &gt;&gt;</a>
+		<span class="next">
+			<a href="/page{{ paginator.previous_page}}/">Next </a> &raquo;
+		</span>
+	{% else %}
+		{%if paginator.page == 2 %}
+		<span class="next">
+			<a href="/">Next</a> &raquo;
+		</span>
+		{% endif %}
 	{% endif %}
 </div>
