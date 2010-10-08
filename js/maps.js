@@ -1,5 +1,15 @@
 function world_map_init() {
-	var myOptions = { zoom: 3, mapTypeId: google.maps.MapTypeId.HYBRID };
+	var myOptions = { 
+		zoom: 3, 
+		mapTypeId: google.maps.MapTypeId.HYBRID,
+		disableDefaultUI: true,
+		navigationControl: true,
+		navigationControlOptions: {
+			style: google.maps.NavigationControlStyle.SMALL,
+			position: google.maps.ControlPosition.TOP_RIGHT
+		}
+	};
+
 	var map = new google.maps.Map( document.getElementById("world_map_canvas"), myOptions);
 
 	var flayer = new google.maps.KmlLayer('http://pipes.yahoo.com/pipes/pipe.run?_id=bdcb80ac39edf7febb833fd9c03e8759&_render=kml&api_key=280bb4feb4e31caead70be49d570964e&nsid=45105880%40N00&per_page=500');

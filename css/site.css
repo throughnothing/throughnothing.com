@@ -8,6 +8,50 @@ body {
 	color: #ddd;
 }
 
+/* World Map Stuff */
+body.map {
+	background: #1f1f21;
+	margin: 0;
+	padding: 0;
+}
+body.map ul.navlinks {
+	/*display: none;*/
+	position: absolute;
+	top: 23;
+	left: 85;
+	margin: 0;
+	padding: 7px;
+	padding-left: 25px;
+	overflow: hidden;
+	background-color: #1f1f21;
+	float: left;
+	z-index: 2;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+body.map div.header {
+	position: absolute;
+	overflow: hidden;
+	z-index: 3;
+	padding: 3px 0px 0px 3px;
+	border-bottom: none;
+}
+body.map div.header img.sitelogo {
+	z-index: 3;
+}
+#world_map_canvas{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+/* End World Map Stuff */
+
 h2 {
 	font-size: 20px;
 }
@@ -22,15 +66,19 @@ a:hover {
 	color: #bfa384;
 }
 
-#world_map_canvas{
-	width: 100%;
-	height: 370px;
-	border: 3px solid #333;
-}
-
 #ourtravels {
 	padding-bottom: 25px;
 	padding-left: 10px;
+}
+
+ul.navlinks {
+	margin-top: 45px;
+	float: right;
+	list-style-type: none;
+}
+ul.navlinks li {
+	float: left;
+	margin-right: 20px;
 }
 
 div.header {
