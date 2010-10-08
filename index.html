@@ -1,10 +1,10 @@
 ---
-layout: home
-title: Throughnothing.com
+layout: default
+title: Two Travelling Souls
 scripts:
 - /js/maps.js
 ---
-{% for page in site.posts %}
+{% for page in site.posts limit:1 %}
 <div class='post'>
 	<div class="data">
 		<h2><a href="{{page.url}}">{{page.title}}</a></h2>
