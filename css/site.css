@@ -113,6 +113,27 @@ div.day_map {
 }
 /* End Post Map */
 
+/* Pagination */
+div.pagination {
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	font: 12px;
+	font-weight: bold;
+}
+div.pagination a {
+	color: #777;
+}
+div.pagination a:hover {
+	color: #bfa384;
+}
+div.pagination a.prev {
+	float: left;
+}
+div.pagination a.next {
+	float: right;
+}
+/* End Pagination */
 
 /* World Map */
 body.map {

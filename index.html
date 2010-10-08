@@ -4,17 +4,30 @@ title: Two Travelling Souls
 scripts:
 - /js/maps.js
 ---
-{% for page in site.posts limit:1 %}
-<div class='post'>
-	<div class="data">
-		<h2><a href="{{page.url}}">{{page.title}}</a></h2>
-		<div class="date">{{page.date | date_to_long_string}}</div>
-		{% if page.kml %}
-			<div class="map bw" onclick="map(this,'{{page.kml}}')"></div>
-		{% endif %}
+{% for page in paginator.posts %}
+	<div class='post'>
+		<div class="data">
+			<h2><a href="{{page.url}}">{{page.title}}</a></h2>
+			<div class="date">{{page.date | date_to_long_string}}</div>
+			{% if page.kml %}
+				<div class="map bw" onclick="map(this,'{{page.kml}}')"></div>
+			{% endif %}
+		</div>
+		<div class="content">
+			{{page.content}}
+		</div>
 	</div>
-	<div class="content">
-		{{page.content}}
-	</div>
-</div>
 {% endfor %}
+
+{{paginator.page}}
+{{paginator.total_pages}}
+<div class="pagination">
+	{% if paginator.total_pages > paginator.page %}
+		<a class="prev" href="/page{{ paginator.next_page}}/">&lt;&lt; Previous</a>
+	{% endif %}
+	{% if paginator.page > 2 %}
+		<a href="/page{{ paginator.previous_page}}/">Next &gt;&gt;</a>
+	{% else if paginator.page == 2 %}
+		<a class="next" href="/">Next &gt;&gt;</a>
+	{% endif %}
+</div>
