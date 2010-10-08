@@ -1,12 +1,91 @@
 body {
+	background-image: url('/images/background.png');
 	background-color: #1f1f21;
 	width: 900px;
 	margin: 0 auto;
-	padding-top: 75px;
+	padding-top: 35px;
+	font: 16px Trebuchet, sans-serif;
+	color: #ddd;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+a {
+	color: #8490bf;
+	text-decoration: none
+}
+a:hover {
+	color: #e55c00;
+	color: #bfb384;
+	color: #bfa384;
 }
 
 #world_map_canvas{
 	width: 100%;
-	height: 270px;
+	height: 370px;
 	border: 3px solid #333;
+}
+
+#ourtravels {
+	padding-bottom: 25px;
+	padding-left: 10px;
+}
+
+div.header {
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #333;
+}
+
+div.post {
+	clear: both;
+}
+
+div.post div.content {
+	clear: both;
+}
+div.post div.data {
+	margin-bottom: 10px;
+}
+div.post div.data div.date {
+	float: left;
+}
+div.post div.data div.map {
+	color: #F25223;
+	color: #ff7519;
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-top: -5px;
+	margin-left: 5px;
+	background: url('/images/earth-small.png') no-repeat;
+}
+div.post div.data div.bw {
+	background: url('/images/earth-smallbw.png') no-repeat;
+}
+div.post div.data div.bw:hover {
+	background: url('/images/earth-small.png') no-repeat;
+}
+
+div.day_map {
+	width: 100%;
+	height: 300px;
+}
+
+a.mask img {
+}
+div.post div.content a.mask {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+a.mask div {
+	margin: 0px;
+	cursor: pointer;
+	height: 440px;
+	width: 654px;
+	background: transparent url('/images/maskmed.png') no-repeat;
 }

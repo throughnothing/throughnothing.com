@@ -1,12 +1,17 @@
 ---
 layout: home
 title: Throughnothing.com
+scripts:
+- /js/maps.js
 ---
-{% for page in paginator.posts %}
-<div class="post">
+{% for page in site.posts %}
+<div class='post'>
 	<div class="data">
 		<h2><a href="{{page.url}}">{{page.title}}</a></h2>
-		<span class="date">{{page.date | date_to_long_string}}</span>
+		<div class="date">{{page.date | date_to_long_string}}</div>
+		{% if page.kml %}
+			<div class="map bw" onclick="map(this,'{{page.kml}}')"></div>
+		{% endif %}
 	</div>
 	<div class="content">
 		{{page.content}}
