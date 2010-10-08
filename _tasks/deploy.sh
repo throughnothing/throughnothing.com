@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rsync --recursive --delete _site/ /var/www/travel.throughnothing.com
+rsync --recursive --delete --verbose _site/ throughnothing@throughnothing.com:/var/www/travel.throughnothing.com/
