@@ -4,11 +4,20 @@ title: Two Travelling Souls
 scripts:
 - /js/maps.js
 ---
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.post a img').parent().lightBox();
+	});
+</script>
 {% for page in paginator.posts %}
 	<div class='post'>
+		<h2><a href="{{page.url}}">{{page.title}}</a></h2>
+
 		<div class="data">
-			<h2><a href="{{page.url}}">{{page.title}}</a></h2>
-			<div class="date">{{page.date | date_to_long_string}}</div>
+			<div class="date">{{page.date | date: "%h %d, %Y"}}</div>
+			{% if page.author %}
+				<div class="author">by {{page.author}}</div>
+			{% endif %}
 			{% if page.kml %}
 				<div class="map bw" onclick="map(this,'{{page.kml}}')"></div>
 			{% endif %}
@@ -22,12 +31,12 @@ scripts:
 <div class="pagination">
 	{% if paginator.total_pages > paginator.page %}
 		<span class="prev">
-			&laquo; <a href="/page{{ paginator.next_page}}/">Previous</a>
+			&laquo; <a href="/page{{ paginator.next_page}}/">Previous Entry</a>
 		</span>
 	{% endif %}
 	{% if paginator.page > 2 %}
 		<span class="next">
-			<a href="/page{{ paginator.previous_page}}/">Next </a> &raquo;
+			<a href="/page{{ paginator.previous_page}}/">Next Entry</a> &raquo;
 		</span>
 	{% else %}
 		{%if paginator.page == 2 %}
