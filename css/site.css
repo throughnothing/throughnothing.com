@@ -1,7 +1,7 @@
 body {
 	background-image: url('/images/background.png');
 	background-color: #1f1f21;
-	width: 800px;
+	width: 700px;
 	margin: 0 auto;
 	padding-top: 15px;
 	font: 16px Trebuchet, sans-serif;
@@ -12,39 +12,84 @@ img {
 	border: 0;
 }
 
+div.pagecontent img {
+	display: block;
+	margin: 0 auto;
+	-moz-box-shadow: 0px 0px 20px #000;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+}
 img.sitelogo {
 	z-index: 6;
 }
+em{
+	font-weight: bold;
+	font-style: italic;
+}
+h1 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 23px;
+}
 h2 {
+	margin: 0px;
+	padding: 0px;
 	font-size: 20px;
 }
-
 a {
+	color: #9E2A00;
+	color: #9E7900;
 	color: #8490bf;
+	color: #308A03;
+	color: #3fbd00;
+	color: #425ba6;
+	color: #5368a6;
+	color: #6b7db2;
+	color: #00A1D0;
+	color: #0083ab;
+	color: #8a8ae5;
 	text-decoration: none
 }
 a:hover {
 	color: #e55c00;
 	color: #bfb384;
 	color: #bfa384;
+	color: #d9860b;
+	color: #ff8000;
 }
+
+a.green {
+	color: #3fbd00;
+}
+a.red {
+	color: #cc0000;
+}
+a.yellow {
+	color: #f2f200;
+}
+a.blue {
+	color: #171799;
+}
+
+
 /* Site Header */
 div.header {
 	z-index: 3;
 	position: relative;
-	width: 900px;
+	overflow: hidden;
 	margin-bottom: 20px;
 }
 div.header span.quote {
-	/*display: none;*/
 	position: absolute;
-	top: 43;
-	left: 102;
+	top: 43px;
+	left: 102px;
 	font-size: 14px;
 	font-style: italic;
 	font-weight: bold;
+	color: #aaa;
 }
 span.quote span {
+	font-size: 11px;
 	color: #3f3f43
 }
 ul.navlinks {
@@ -52,8 +97,8 @@ ul.navlinks {
 	background-color: #1f1f21;
 	z-index: -1;
 	padding: 7px 7px 7px 25px;
-	top: -12;
-	left: 80;
+	top: -12px;
+	left: 80px;
 	list-style-type: none;
 	
 	-moz-border-radius: 10px;
@@ -67,6 +112,7 @@ ul.navlinks {
 ul.navlinks li {
 	float: left;
 	margin-right: 20px;
+	font-weight: bold;
 }
 /* End Site Header */
 
@@ -74,18 +120,46 @@ ul.navlinks li {
 body div.pagecontent {
 	/*padding-top: 90px;*/
 }
+
+/* Post */
 div.post {
 	clear: both;
 }
-
+div.post h2 a {
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+	color: #8ae5b8;
+	color: #2db259;
+	color: #2a8c2a;
+	color: #c1e58a;
+	color: #E0BD11;
+	color: #edc600;
+	color: #e59317;
+	color: #ffad33;
+}
 div.post div.content {
 	clear: both;
 }
+div.post div.content:first-letter {
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 24px;
+}
 div.post div.data {
-	margin-bottom: 10px;
+	overflow: hidden;
+	font-size: 12px;
+	margin-bottom: 2px;
 }
 div.post div.data div.date {
+	font-weight: bold;
 	float: left;
+}
+div.post div.data div.author {
+	float: left;
+	margin-left: 10px;
+	font-weight: bold;
+	color: #888;
 }
 div.post div.data div.map {
 	color: #F25223;
@@ -104,14 +178,11 @@ div.post div.data div.bw {
 div.post div.data div.bw:hover {
 	background: url('/images/earth-small.png') no-repeat;
 }
-
-
-/* Post map */
 div.day_map {
 	width: 100%;
 	height: 300px;
 }
-/* End Post Map */
+/* End Post */
 
 /* Pagination */
 div.pagination {
@@ -126,9 +197,6 @@ div.pagination {
 div.pagination a {
 	color: #777;
 }
-div.pagination a:hover {
-	color: #bfa384;
-}
 div.pagination span.prev {
 	float: left;
 }
@@ -136,6 +204,12 @@ div.pagination span.next {
 	float: right;
 }
 /* End Pagination */
+
+/* Footer */
+div.footer {
+	padding-bottom: 50px;
+}
+/* End Footer */
 
 /* World Map */
 body.map {
@@ -145,8 +219,8 @@ body.map {
 }
 body.map ul.navlinks {
 	position: absolute;
-	top: 8;
-	left: 80;
+	top: 8px;
+	left: 80px;
 	margin: 0;
 	padding: 7px;
 	padding-left: 25px;
@@ -156,7 +230,7 @@ body.map ul.navlinks {
 	z-index: -1;
 }
 body.map div.header {
-	position: absolute;
+	position: relative;
 	top: 5px;
 	overflow: hidden;
 	z-index: 3;
@@ -165,8 +239,8 @@ body.map div.header {
 }
 #world_map_canvas{
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 0px;
+	left: 0px;
 	width: 100%;
 	height: 100%;
 	z-index: -1;
