@@ -54,7 +54,6 @@ function day_map_init(elem, date, kml) {
 		'&min_taken_date=' + dates.minDateStr  + 
 		'&max_taken_date=' + dates.maxDateStr + 
 		'&nsid=45105880%40N00&per_page=500';
-	console.log(kmlStr);
 	var photos = new google.maps.KmlLayer(kmlStr);
 	photos.setMap(map);
 
