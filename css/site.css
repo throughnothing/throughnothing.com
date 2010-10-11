@@ -151,7 +151,7 @@ div.post div.content:first-letter {
 	font-size: 24px;
 }
 div.post div.data {
-	overflow: hidden;
+	width: 100%;
 	font-size: 12px;
 	margin-bottom: 2px;
 }
@@ -169,12 +169,12 @@ div.post div.data div.map {
 	color: #F25223;
 	color: #ff7519;
 	cursor: pointer;
-	width: 25px;
-	height: 25px;
+	width: 22px;
+	height: 20px;
 	float: left;
-	margin-top: -5px;
-	margin-left: 5px;
-	background: url('/images/earth-small.png') no-repeat;
+	margin-top: -22px;
+	margin-left: -21px;
+	background: url('/images/map_icon.png') no-repeat;
 }
 div.post div.data div.bw {
 	background: url('/images/earth-smallbw.png') no-repeat;
@@ -182,8 +182,13 @@ div.post div.data div.bw {
 div.post div.data div.bw:hover {
 	background: url('/images/earth-small.png') no-repeat;
 }
+div.day_map_wrap {
+	clear: both;
+	overflow: hidden;
+	padding-top: 10px;
+}
 div.day_map {
-	margin-top: 30px;
+	clear: both;
 	width: 100%;
 	height: 440px;
 }

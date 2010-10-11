@@ -66,24 +66,27 @@ function day_map_init(elem, date, kml) {
 function mapt(elem, kml){
 	elem = $(elem);
 	p = elem.parent();
-	var map = p.children('.day_map');
-	var dt = p.children('.date');
-	dt = new Date(Date.parse(dt.text()));
+	var mapw = p.children('.day_map_wrap');
+	var map = mapw.children('.day_map');
 	
 	if(map.length == 0 ){
-		elem.removeClass('bw');
-		var map = $(document.createElement('div'));
+		map = $(document.createElement('div'));
 		map.addClass('day_map');
-		elem.parent().append(map);
+		mapw = $(document.createElement('div'));
+		mapw.addClass('day_map_wrap');
+		mapw.append(map);
+		elem.parent().append(mapw);
 	}else{
 		if(map.is(':visible')){
-			elem.addClass('bw');
-			map.fadeOut();
+			mapw.fadeOut();
 		}else{
-			elem.removeClass('bw');
-			p.children('.day_map').fadeIn();
+			mapw.fadeIn();
 		}
 	}
+
+	// Get the entry's post date
+	var dt = p.children('.date');
+	dt = new Date(Date.parse(dt.text()));
 
 	kml = KML_PATH + kml;
 	day_map_init(map, dt, kml);

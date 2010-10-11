@@ -14,12 +14,13 @@ scripts:
 		<h2><a href="{{page.url}}">{{page.title}}</a></h2>
 
 		<div class="data">
+			{% if page.kml %}
+				<div class="map" onclick="mapt(this,'{{page.kml}}')"></div>
+			{% endif %}
+
 			<div class="date">{{page.date | date: "%h %d, %Y"}}</div>
 			{% if page.author %}
 				<div class="author">by {{page.author}}</div>
-			{% endif %}
-			{% if page.kml %}
-			<div class="map bw" onclick="mapt(this,'{{page.kml}}')"></div>
 			{% endif %}
 		</div>
 		<div class="content">
