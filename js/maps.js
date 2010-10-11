@@ -1,4 +1,5 @@
 FLICKR_USER_ID="45105880%40N00";
+KML_PATH = "http://travel.throughnothing.com/kml/";
 
 function world_map_init() {
 	var myOptions = { 
@@ -31,6 +32,9 @@ function world_map_init() {
 }
 
 function day_map_init(elem, date, kml) {
+	// Get min and max photo dates
+	var dates = get_min_max_dates(date);
+
 	var myOptions = { 
 		minZoom: 155555, 
 		mapTypeId: google.maps.MapTypeId.HYBRID,
@@ -44,14 +48,13 @@ function day_map_init(elem, date, kml) {
 
 	var map = new google.maps.Map( elem[0], myOptions);
 
-	var dates = get_min_max_dates(date);
-
 	var kmlStr = 'http://pipes.yahoo.com/pipes/pipe.run' + 
 		'?_id=bdcb80ac39edf7febb833fd9c03e8759' + 
 		'&_render=kml&api_key=280bb4feb4e31caead70be49d570964e' +
-		'&max_taken_date=' + date.maxDateStr + 
-		'&min_taken_date=' + date.minDateStr  + 
+		'&min_taken_date=' + dates.minDateStr  + 
+		'&max_taken_date=' + dates.maxDateStr + 
 		'&nsid=45105880%40N00&per_page=500';
+	console.log(kmlStr);
 	var photos = new google.maps.KmlLayer(kmlStr);
 	photos.setMap(map);
 
@@ -59,7 +62,6 @@ function day_map_init(elem, date, kml) {
 		var route = new google.maps.KmlLayer(kml);
 		route.setMap(map);
 	}
-
 }
 
 function mapt(elem, kml){
@@ -84,10 +86,9 @@ function mapt(elem, kml){
 		}
 	}
 
-	kml = 'http://travel.throughnothing.com/kml/' + kml;
+	kml = KML_PATH + kml;
 	day_map_init(map, dt, kml);
 }
-
 
 function get_min_max_dates(date){
 	var minDateStr = 
@@ -101,7 +102,6 @@ function get_min_max_dates(date){
 
 	return {minDateStr: minDateStr, maxDateStr: maxDateStr};
 }
-
 
 function two_digits (num){
 	if(num < 10)
