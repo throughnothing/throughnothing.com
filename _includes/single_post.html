@@ -12,6 +12,10 @@
 		{% endif %}
 	</div>
 	<div class="content">
-		{{page.content}}
+		{% if content %}
+			{{content}}
+		{% else %}
+			{{page.content}}
+		{% endif %}
 	</div>
 </div>
