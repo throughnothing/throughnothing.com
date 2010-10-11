@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Heading to NYC Tomorrow
 author: Will
 ---
