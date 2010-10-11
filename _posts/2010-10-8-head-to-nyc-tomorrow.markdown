@@ -2,6 +2,7 @@
 layout: post
 title: Heading to NYC Tomorrow
 author: Will
+trip: NYC Barefoot Run
 ---
 Heading to NYC tomorrow for the first ever [NYC Barefoot Run](http://www.nycbarefootrun.com)!  We will be heading out around 6am and driving up to NYC, and then hopefully making it out to Central Park to meet [BFT](http://www.barefootted.com), [John Durant](http://www.hunter-gatherer.com), and others.  Looking forward to seeing the over 250+ runners there this weekend!
 
