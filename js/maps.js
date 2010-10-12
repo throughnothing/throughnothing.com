@@ -31,9 +31,10 @@ function world_map_init() {
 	flayer.setMap(map);
 }
 
-function day_map_init(elem, date, kml) {
+function day_map_init(elem, date) {
 	// Get min and max photo dates
 	var dates = get_min_max_dates(date);
+	var kml = KML_PATH + dates.minDateStr + '.kml';
 
 	var myOptions = { 
 		minZoom: 155555, 
@@ -63,7 +64,7 @@ function day_map_init(elem, date, kml) {
 	}
 }
 
-function mapt(elem, kml){
+function mapt(elem){
 	elem = $(elem);
 	p = elem.parent();
 	var mapw = p.children('.day_map_wrap');
@@ -87,9 +88,7 @@ function mapt(elem, kml){
 	// Get the entry's post date
 	var dt = p.children('.date');
 	dt = new Date(Date.parse(dt.text()));
-
-	kml = KML_PATH + kml;
-	day_map_init(map, dt, kml);
+	day_map_init(map, dt);
 }
 
 function get_min_max_dates(date){
