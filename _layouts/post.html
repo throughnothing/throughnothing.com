@@ -3,4 +3,9 @@ layout: default
 scripts:
 - /js/maps.js
 ---
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.post a img').parent().lightBox();
+	});
+</script>
 {% include single_post.html %}

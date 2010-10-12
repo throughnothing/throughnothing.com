@@ -1,0 +1,8 @@
+---
+layout: post
+title: First Ever NYC Barefoot Run Race Day
+author: Will
+kml: 2010-10-10.kml
+trip: NYC Barefoot Run
+---
+
