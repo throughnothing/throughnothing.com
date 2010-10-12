@@ -1,4 +1,6 @@
 TODO:
+	Meta Tags
+	X Google Analytics
 	Work on color scheme (http://www.colorblender.com/)
 	Make background image Wider
 
