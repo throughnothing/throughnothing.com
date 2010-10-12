@@ -1,4 +1,5 @@
 TODO:
+	Look into using textile (for better classing/markup of paragraphs and images)
 	Work on color scheme (http://www.colorblender.com/)
 	Make Multiple CSS Files with different themes to compare
 	Photos Section (Python script to auto-generate from flickr api?)
