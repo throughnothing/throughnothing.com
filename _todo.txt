@@ -1,0 +1,6 @@
+TODO:
+	Meta Tags on site html
+	Work on color scheme (http://www.colorblender.com/)
+	Make background image Wider
+	Make Global Map Load Photos (and kml?) based on BBOX
+	Make Day Map KML Script for photos using API

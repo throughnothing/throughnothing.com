@@ -1,3 +1,7 @@
+#Category_gen extension
+category_dir: trips
+category_title_prefix: "Trip: &raquo; "
+
 paginate: 1
 safe:        false
 auto:        false
