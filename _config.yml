@@ -1,6 +1,6 @@
 #Category_gen extension
 category_dir: trips
-category_title_prefix: "Trip: &raquo; "
+category_title_prefix: "Trips: &raquo; "
 
 paginate: 1
 safe:        false
@@ -16,7 +16,7 @@ future:      false
 lsi:         false
 pygments:    false
 markdown:    maruku
-permalink:   date
+permalink:   /:categories/:title.html
 
 maruku:
   use_tex:    false

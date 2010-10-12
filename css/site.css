@@ -133,7 +133,7 @@ h2.year {
 	color: #888;
 }
 ul.triplist {
-	margin-left: 10px;
+	margin-left: 23px;
 	font-size: 20px;
 }
 ul.triplist li {
@@ -149,6 +149,14 @@ ul.triplist li a div {
 	float: left;
 	margin-top: 25px; 
 	margin-left: 20px;
+}
+
+ul.entrylist {
+	margin-left: 18px;
+}
+ul.entrylist li {
+	margin: 10px 0px 0px 0px;
+	list-style-type: circle;
 }
 /* End Trips */
 
@@ -185,6 +193,11 @@ div.post div.data {
 	width: 100%;
 	font-size: 12px;
 	margin-bottom: 2px;
+}
+div.post div.data div.categories {
+	margin-left: 10px;
+	float: left;
+	font-weight: bold;
 }
 div.post div.data div.date {
 	font-weight: bold;

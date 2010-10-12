@@ -6,7 +6,10 @@ scripts:
 ---
 <script type="text/javascript">
 	$(document).ready(function(){
-		$('.post a img').parent().lightBox();
+			$('.post a img').parent().lightBox({
+				overlayOpacity: 0.9,
+				overlayBgColor: '#000'
+			});
 	});
 </script>
 {% for page in paginator.posts %}

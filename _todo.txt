@@ -1,6 +1,8 @@
 TODO:
 	Meta Tags on site html
+	Make Atom.xml Feed work
+	Photos Section (Python script to auto-generate from flickr api?)
 	Work on color scheme (http://www.colorblender.com/)
-	Make background image Wider
+	Make background image Wider (?)
 	Make Global Map Load Photos (and kml?) based on BBOX
 	Make Day Map KML Script for photos using API
