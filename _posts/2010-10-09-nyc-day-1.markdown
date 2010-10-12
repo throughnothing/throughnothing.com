@@ -3,7 +3,8 @@ layout: post
 title: Drive to NYC and Barefoot Clinic in Central Park
 author: Will
 kml: 2010-10-09.kml
-trip: NYC Barefoot Run
+categories: 
+- NYC-Barefoot-Run-2010
 ---
 Today got off to an early 5:15am start.  The plan was to leave around 6am, but after some last minute changes to the group, we ended up heading out close to 7am, which is still not too terrible.
 

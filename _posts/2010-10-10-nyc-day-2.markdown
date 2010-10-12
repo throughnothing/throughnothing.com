@@ -3,8 +3,8 @@ layout: post
 title: First Ever NYC Barefoot Run Race Day
 author: Will
 kml: 2010-10-10.kml
-trip: NYC Barefoot Run
-published: true
+categories: 
+- NYC-Barefoot-Run-2010
 ---
 [![First NYC Barefoot Run Group Panorama](http://farm5.static.flickr.com/4112/5073219907_162a6e7146_z.jpg)](http://farm5.static.flickr.com/4112/5073219907_162a6e7146_z.jpg)
 

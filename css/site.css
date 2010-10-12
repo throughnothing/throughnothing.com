@@ -27,7 +27,8 @@ em{
 	font-style: italic;
 }
 h1 {
-	margin: 0px;
+	color: #ffad33;
+	margin: 0px 0px 10px 0px;
 	padding: 0px;
 	font-size: 23px;
 }
