@@ -76,6 +76,6 @@ Stuffed and tired, we headed back to the hotel on the metro.  When we got to our
 
 
 
-[bft]:http://www.barefootted.com
-[jpm]:http://maps.google.com/maps/place?client=ubuntu&channel=fs&oe=utf-8&um=1&ie=UTF-8&q=JP+Mustards+NYC&fb=1&gl=us&hq=JP+Mustards&hnear=New+York,+NY&cid=1694935362453567749
-[jbb]:http://www.jackbistronyc.com/
+[bft]http://www.barefootted.com
+[jpm]http://maps.google.com/maps/place?client=ubuntu&channel=fs&oe=utf-8&um=1&ie=UTF-8&q=JP+Mustards+NYC&fb=1&gl=us&hq=JP+Mustards&hnear=New+York,+NY&cid=1694935362453567749
+[jbb]http://www.jackbistronyc.com/

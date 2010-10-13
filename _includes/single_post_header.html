@@ -1,6 +1,5 @@
-<div class='post'>
+<div class='post title_list'>
 	<h2><a href="{{page.url}}">{{page.title}}</a></h2>
-
 	<div class="data">
 		<div class="date">{{page.date | date: "%h %d, %Y"}}</div>
 		{% if page.kml %}
@@ -16,13 +15,6 @@
 				<a href="/trips/{{cat}}">{{cat}}</a>
 			{% endfor %}
 		</div>
-		{% endif %}
-	</div>
-	<div class="content">
-		{% if content %}
-			{{content}}
-		{% else %}
-			{{page.content}}
 		{% endif %}
 	</div>
 </div>

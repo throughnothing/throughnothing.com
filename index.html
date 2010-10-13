@@ -1,20 +1,34 @@
 ---
 layout: default
-title: Two Travellers
+title: Travelling Two
 scripts:
+- /js/photos.js
 - /js/maps.js
 ---
-<script type="text/javascript">
-	$(document).ready(function(){
-			$('.post a img').parent().lightBox({
-				overlayOpacity: 0.9,
-				overlayBgColor: '#000'
-			});
-	});
-</script>
-{% for page in paginator.posts %}
-	{% include single_post.html %}
-{% endfor %}
+<div id="images">
+	<ul>
+		<li><a><img/></a></li>
+		<li><a><img/></a></li>
+		<li><a><img/></a></li>
+		<li><a><img/></a></li>
+		<li><a><img/></a></li>
+		<li><a><img/></a></li>
+		<li><a><img/></a></li>
+		<li><a><img/></a></li>
+</div>
+<ul class='posts'>
+	{% for page in paginator.posts %}
+	<li>
+		<span>{{ page.date | date: "%h %d, %Y"}}</span> 
+		&raquo; 
+		{% if page.kml %}
+			<span class="map"></span>
+		{% endif %}
+		<a href="{{ page.url }}">{{ page.title }}</a>
+	</li>
+	{% endfor %}
+</ul>
+
 
 <div class="pagination">
 	{% if paginator.total_pages > paginator.page %}

@@ -2,7 +2,7 @@
 layout: default
 title: About Us...
 ---
-#About Us
+h1. About Us
 
 Hey everyone.  We are Will and Angelle, and we love travelling.  Whenever we aren't travelling, we are scheming our next getaway, dreaming about travelling, or (most likely) _both_!
 
