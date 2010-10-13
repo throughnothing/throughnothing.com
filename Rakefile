@@ -8,16 +8,24 @@ namespace :site do
 		puts "deleting _site complete"
 	end
 
+	desc "minify all js files in _js/"
+	task :minjs do
+		puts "minify'ing js in _js/"
+		system('(cd _js; for f in *.js; do cat $f | ../_scripts/jsmin.py >> ../js/$f ; done)')
+		puts "minify'ing js in _js/ complete"
+	end
+
 	desc "build _site"
 	namespace :build do
 		desc "build and deploy dev"
-		task :dev => :delete do
+		task :dev => [:delete,:minjs] do
 			puts "building _site"
 			system('jekyll --server 9000 --auto')
 		end
 
 		desc "build pro"
-		task :pro => :delete do
+		task :pro => [:delete,:minjs] do
+			puts "building _site"
 			puts "building production _site"
 			system('jekyll')
 			puts "building _site complete"
@@ -45,10 +53,10 @@ namespace :site do
 
 	desc "generate static elements for the site"
 	namespace :gen do
-		desc "generate js/photos_json.js file for flickr"
+		desc "generate _js/photos_json.js file for flickr"
 		task :photos_json do
 			puts "generating photos_json.js"
-			system('python _scripts/flickr_json_generator.py > js/photos_json.js')
+			system('python _scripts/flickr_json_generator.py > _js/photos_json.js')
 			puts "generating photos_json.js complete"
 		end
 	end
