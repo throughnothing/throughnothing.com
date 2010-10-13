@@ -20,14 +20,14 @@ namespace :site do
 		desc "build and deploy dev"
 		task :dev => [:delete,:minjs] do
 			puts "building _site"
-			system('jekyll --server 9000 --auto')
+			system('ejekyll --server 9000 --auto')
 		end
 
 		desc "build pro"
 		task :pro => [:delete,:minjs] do
 			puts "building _site"
 			puts "building production _site"
-			system('jekyll')
+			system('ejekyll')
 			puts "building _site complete"
 		end
 
