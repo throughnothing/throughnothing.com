@@ -19,7 +19,7 @@ function random_photos(){
 	var photos = recent_photos.photoset.photo;
 	//copy array
 	photos = photos.slice(0,photos.length);
-	$.each($('#images img'),function(i,img){
+	$.each($('#hp_images img'),function(i,img){
 		random_photo($(img), photos);
 	});
 }

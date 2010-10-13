@@ -5,7 +5,7 @@ scripts:
 - /js/photos.js
 - /js/maps.js
 ---
-<div id="images">
+<div id="hp_images">
 	<ul>
 		<li><a><img/></a></li>
 		<li><a><img/></a></li>
@@ -15,14 +15,16 @@ scripts:
 		<li><a><img/></a></li>
 		<li><a><img/></a></li>
 		<li><a><img/></a></li>
+	</ul>
 </div>
+
 <ul class='posts'>
 	{% for page in paginator.posts %}
 	<li>
 		<span>{{ page.date | date: "%h %d, %Y"}}</span> 
 		&raquo; 
 		{% if page.kml %}
-			<span class="map"></span>
+		<a target="_new" href="/map.html#{{ page.date | date: "%Y-%m-%d" }}" alt="Day Map" class="map"></a>
 		{% endif %}
 		<a href="{{ page.url }}">{{ page.title }}</a>
 	</li>
@@ -33,17 +35,17 @@ scripts:
 <div class="pagination">
 	{% if paginator.total_pages > paginator.page %}
 		<span class="prev">
-			&laquo; <a href="/page{{ paginator.next_page}}/">Previous Entry</a>
+			&laquo; <a href="/page{{ paginator.next_page}}/">Older Entries</a>
 		</span>
 	{% endif %}
 	{% if paginator.page > 2 %}
 		<span class="next">
-			<a href="/page{{ paginator.previous_page}}/">Next Entry</a> &raquo;
+			<a href="/page{{ paginator.previous_page}}/">Newer Entries</a> &raquo;
 		</span>
 	{% else %}
 		{%if paginator.page == 2 %}
 		<span class="next">
-			<a href="/">Next</a> &raquo;
+			<a href="/">Newer Entries</a> &raquo;
 		</span>
 		{% endif %}
 	{% endif %}

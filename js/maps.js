@@ -1,6 +1,19 @@
 FLICKR_USER_ID="45105880%40N00";
 KML_PATH = "http://travel.throughnothing.com/kml/";
 
+/* Flickr Functions */
+function get_flickr_kml(date){
+	var dates = get_min_max_dates(date);
+	var kmlStr = 'http://pipes.yahoo.com/pipes/pipe.run' + 
+		'?_id=bdcb80ac39edf7febb833fd9c03e8759' + 
+		'&_render=kml&api_key=280bb4feb4e31caead70be49d570964e' +
+		'&min_taken_date=' + dates.minDateStr  + 
+		'&max_taken_date=' + dates.maxDateStr + 
+		'&nsid=45105880%40N00&per_page=500';
+	return kmlStr;
+}
+/* End Flickr Functions */
+
 function world_map_init() {
 	var myOptions = { 
 		zoom: 3, 
@@ -15,20 +28,28 @@ function world_map_init() {
 
 	var map = new google.maps.Map( $("#world_map_canvas")[0], myOptions);
 
-	var flayer = new google.maps.KmlLayer(
-			'http://pipes.yahoo.com/pipes/pipe.run' + 
-			'?_id=bdcb80ac39edf7febb833fd9c03e8759&_render=kml' +
-			'&api_key=280bb4feb4e31caead70be49d570964e' +
-			'&nsid=45105880%40N00&per_page=500'
-		);
-	/*var flayer = new google.maps.KmlLayer(
-			'http://pipes.yahoo.com/pipes/pipe.run' + 
-			'?_id=bdcb80ac39edf7febb833fd9c03e8759&_render=kml' +
-			'&api_key=280bb4feb4e31caead70be49d570964e' +
-			'&nsid=45105880%40N00&per_page=50&sort=date-posted-desc'
-		);
-	//*/
-	flayer.setMap(map);
+	if(window.location.hash){
+		var dateStr = window.location.hash.split('#')[1];
+		var kml = 'http://travel.throughnothing.com/kml/' + 
+			dateStr + '.kml';
+		//Add Route Layer
+		var hash_layer = new google.maps.KmlLayer(kml);
+		hash_layer.setMap(map);
+
+		//Add Flickr Layer
+		var kmlStr = get_flickr_kml(new Date(dateStr));
+		console.log(kmlStr);
+		var photos = new google.maps.KmlLayer(kmlStr);
+		photos.setMap(map);
+	}else{
+		var flayer = new google.maps.KmlLayer(
+				'http://pipes.yahoo.com/pipes/pipe.run' + 
+				'?_id=bdcb80ac39edf7febb833fd9c03e8759&_render=kml' +
+				'&api_key=280bb4feb4e31caead70be49d570964e' +
+				'&nsid=45105880%40N00&per_page=500'
+			);
+		flayer.setMap(map);
+	}
 }
 
 function day_map_init(elem, date) {
@@ -49,12 +70,7 @@ function day_map_init(elem, date) {
 
 	var map = new google.maps.Map( elem[0], myOptions);
 
-	var kmlStr = 'http://pipes.yahoo.com/pipes/pipe.run' + 
-		'?_id=bdcb80ac39edf7febb833fd9c03e8759' + 
-		'&_render=kml&api_key=280bb4feb4e31caead70be49d570964e' +
-		'&min_taken_date=' + dates.minDateStr  + 
-		'&max_taken_date=' + dates.maxDateStr + 
-		'&nsid=45105880%40N00&per_page=500';
+	var kmlStr = get_flickr_kml(date)
 	var photos = new google.maps.KmlLayer(kmlStr);
 	photos.setMap(map);
 
