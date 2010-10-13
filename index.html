@@ -6,6 +6,11 @@ scripts:
 - /js/photos.js
 - /js/maps.js
 ---
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#hp_images a img').parent().lightBox();
+	});
+</script>
 <div id="hp_images">
 	<ul>
 		<li><a><img/></a></li>
