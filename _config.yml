@@ -1,6 +1,6 @@
 #Category_gen extension
 category_dir: trips
-category_title_prefix: "Trips: &raquo; "
+category_title_prefix: "Trips &raquo; "
 
 paginate: 1
 safe:        false
