@@ -1,0 +1,29 @@
+---
+layout: default
+---
+h1. Uncopyright
+
+This blog is Uncopyrighted. Its author, William Wolf, has released all claims on copyright and has put all the content of this blog into the public domain.
+
+No permission is needed to copy, distribute, or modify the content of this site. Credit is appreciated but not required.
+
+The source code for this entire site can be found "here":src
+
+For more information on why copyright is bad, and why I chose to uncopyright my work, check out some of the links below.
+
+* "Question Copyright":qc
+* "Misinterpreting Copyright":mc
+* "The Surprising History of Copyright and the Promise of a Post-Copyright World":ppcw
+* "Abandoning Copyright":ac
+* "How Things Would Work in a Copyright Free Universe":cfu
+* "Molnari Institute Anti-Copyright Resources":mi
+* "Uncopyright and the Minimalist Mindset":mm
+
+[src]http://github.com/throughnothing/travel-blog
+[qc]http://questioncopyright.org/
+[mc]http://www.gnu.org/philosophy/misinterpreting-copyright.html
+[ppcw]http://questioncopyright.org/promise
+[ac]http://www.culturelink.org/news/members/2005/members2005-011.html
+[cfu]http://www.ilanamercer.com/phprunner/public_article_list_view.php?editid1=219
+[mi]http://praxeology.net/anticopyright.htm
+[mm]http://mnmlist.com/uncopyright-and-a-minimalist-mindset/
