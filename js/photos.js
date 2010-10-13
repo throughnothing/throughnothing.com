@@ -2,11 +2,9 @@ function get_flickr_photo_url(p){
 	return "http://farm" + p.farm + ".static.flickr.com/" + 
 		p.server + "/" + p.id + "_" + p.secret + "_s.jpg";
 }
-
 function get_flickr_page(p){
 	return "http://www.flickr.com/photos/" + FLICKR_USER_ID + '/' + p.id + '/';
 }
-
 function random_photos(){
 	var photos = [];
 	var sets_in_latest_collection = FLICKR_TRAVEL_COLLECTION.collection[0].set.length;
@@ -20,7 +18,6 @@ function random_photos(){
 		random_photo($(img), photos);
 	});
 }
-
 function random_photo(img, photos){
 	var r = Math.floor(Math.random()*photos.length);
 	var p = photos[r];
@@ -30,7 +27,6 @@ function random_photo(img, photos){
 	img.parent().attr("alt", p.title);
 	photos.splice(r,1);
 }
-
 $(document).ready(function(){
 	random_photos();
 	setInterval("random_photos()",10000);

@@ -1,4 +1,5 @@
 TODO:
+	Compress js/css on build (minimatic in python?)
 	Photos Section (Python script to auto-generate (json objects?) from flickr api?)
 	Disqus for comments system?
 	Work on color scheme (http://www.colorblender.com/)
@@ -7,7 +8,6 @@ TODO:
 	Make Day Map KML Script for photos using API
 	Make Global Map Load Photos (and kml?) based on BBOX
 	Meta Tags on site html
-
 
 DONE:
 	Make background image Wider (better?)(?)
