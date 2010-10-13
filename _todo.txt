@@ -1,5 +1,5 @@
 TODO:
-	Minify css on build(slimmer?, juicer (ruby))
+	Minify css on build(slimmer?, juicer (ruby)) (cssutils http://code.google.com/p/cssutils/)
 	Photos Section (Python script to auto-generate (json objects?) from flickr api?)
 	Disqus for comments system?
 	Work on color scheme (http://www.colorblender.com/)
