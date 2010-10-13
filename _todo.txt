@@ -1,11 +1,15 @@
 TODO:
-	Look into using textile (for better classing/markup of paragraphs and images)
+	Photos Section (Python script to auto-generate (json objects?) from flickr api?)
+	Disqus for comments system?
 	Work on color scheme (http://www.colorblender.com/)
 	Make Multiple CSS Files with different themes to compare
-	Photos Section (Python script to auto-generate from flickr api?)
-	Make background image Wider (better?)(?)
 
 	Make Day Map KML Script for photos using API
 	Make Global Map Load Photos (and kml?) based on BBOX
 	Meta Tags on site html
+
+
+DONE:
+	Make background image Wider (better?)(?)
+	Look into using textile (for better classing/markup of paragraphs and images)
 	Make Atom.xml Feed work

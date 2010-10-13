@@ -4,7 +4,7 @@ body {
 	width: 700px;
 	margin: 0 auto;
 	padding-top: 15px;
-	font: 16px Trebuchet, sans-serif;
+	font: 14px Trebuchet, sans-serif;
 	color: #ddd;
 }
 
@@ -160,7 +160,7 @@ ul.entrylist li {
 
 /* Post */
 ul.posts li {
-	font-size: 16px;
+	font-size: 14px;
 	margin-bottom: 5px;
 }
 ul.posts li span{

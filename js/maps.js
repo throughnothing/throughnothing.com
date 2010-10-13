@@ -38,7 +38,6 @@ function world_map_init() {
 
 		//Add Flickr Layer
 		var kmlStr = get_flickr_kml(new Date(dateStr));
-		console.log(kmlStr);
 		var photos = new google.maps.KmlLayer(kmlStr);
 		photos.setMap(map);
 	}else{
