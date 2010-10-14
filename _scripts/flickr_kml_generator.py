@@ -70,7 +70,7 @@ for p in photos['photos']['photo']:
   #Build Description
   desc = KML_DESC.replace('[[PHOTO_URL]]',get_flickr_photo_url(p))
   desc = desc.replace('[[ALT]]',str(p['title']))
-  desc = desc.replace('[[PHOTO_SRC]]',get_flickr_photo_url(p,'s'))
+  desc = desc.replace('[[PHOTO_SRC]]',get_flickr_photo_url(p,'t'))
   desc = desc.replace('[[TEXT]]',str(p['description']['_content']))
 
   ph = KML_PLACEMARK

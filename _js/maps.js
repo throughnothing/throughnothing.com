@@ -3,7 +3,7 @@ KML_PATH = "http://travel.throughnothing.com/kml/";
 /* Flickr Functions */
 function get_flickr_kml(date){
 	var dates = get_min_max_dates(date);
-	var kmlStr = KML_PATH + dates.minDateStr + '-photos.kml';
+	var kmlStr = KML_PATH + dates.minDateStr + '-photos.kml?dummy=' + (new Date().getTime());
 	return kmlStr;
 }
 /* End Flickr Functions */
@@ -63,15 +63,15 @@ function day_map_init(elem, date) {
 	};
 
 	var map = new google.maps.Map( elem[0], myOptions);
-
-	var kmlStr = get_flickr_kml(date)
-	var photos = new google.maps.KmlLayer(kmlStr);
-	photos.setMap(map);
-
 	if(kml && kml != ""){
 		var route = new google.maps.KmlLayer(kml);
 		route.setMap(map);
 	}
+
+	var kmlStr = get_flickr_kml(date);
+	var photos = new google.maps.KmlLayer(kmlStr);
+	photos.setMap(map);
+
 }
 
 function mapt(elem){
@@ -97,7 +97,7 @@ function mapt(elem){
 
 	// Get the entry's post date
 	var dt = p.children('.date');
-	dt = new Date(Date.parse(dt.text()));
+	dt = new Date(dt.text());
 	day_map_init(map, dt);
 }
 
@@ -106,10 +106,11 @@ function get_min_max_dates(date){
 		date.getFullYear() + '-' + 
 		two_digits((date.getMonth() + 1)) + '-' + 
 		two_digits(date.getDate());
-	date.setDate(date.getDate() + 1);
-	var maxDateStr = date.getFullYear() + '-' + 
-		two_digits((date.getMonth() + 1)) + '-' + 
-		two_digits(date.getDate());
+	var d2 = new Date(date)
+	d2.setDate(date.getDate() + 1);
+	var maxDateStr = d2.getFullYear() + '-' + 
+		two_digits((d2.getMonth() + 1)) + '-' + 
+		two_digits(d2.getDate());
 
 	return {minDateStr: minDateStr, maxDateStr: maxDateStr};
 }
