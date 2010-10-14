@@ -1,15 +1,15 @@
 TODO:
-	Minify css on build(slimmer?, juicer (ruby)) (cssutils http://code.google.com/p/cssutils/)
 	Photos Section (Python script to auto-generate (json objects?) from flickr api?)
-	Disqus for comments system?
-	Work on color scheme (http://www.colorblender.com/)
-	Make Multiple CSS Files with different themes to compare
-
-	Make Day Map KML Script for photos using API
 	Make Global Map Load Photos (and kml?) based on BBOX
+	Minify css on build(slimmer?, juicer (ruby)) (cssutils http://code.google.com/p/cssutils/)
+	Disqus for comments system?
+
 	Meta Tags on site html
+	Make Multiple CSS Files with different themes to compare
+	Work on color scheme (http://www.colorblender.com/)
 
 DONE:
+	Make Day Map KML Script for photos using API
 	Minify js on build (jsmin.py)
 	Make background image Wider (better?)(?)
 	Look into using textile (for better classing/markup of paragraphs and images)
