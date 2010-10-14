@@ -7,7 +7,7 @@ This blog is Uncopyrighted. Its author, William Wolf, has released all claims on
 
 No permission is needed to copy, distribute, or modify the content of this site. Credit is appreciated but not required.
 
-The source code for this entire site can be found "here":src
+The source code for this entire site can be found "here":src.
 
 For more information on why copyright is bad, and why I chose to uncopyright my work, check out some of the links below:
 
