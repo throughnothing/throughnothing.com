@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+import warnings
+warnings.filterwarnings("ignore","",DeprecationWarning)
+
 import flickrapi
 import simplejson as json
 ###################################
