@@ -53,6 +53,7 @@ div.header {
 	margin-bottom: 20px;
 }
 div.header span.quote {
+	display: none;
 	position: absolute;
 	top: 43px;
 	left: 102px;
