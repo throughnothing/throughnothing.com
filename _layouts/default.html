@@ -16,39 +16,41 @@
 		<!-- Quotes JS -->
 		<script type="text/javascript" src="/js/quotes.js"></script>
 		<!-- Jquery Lightbox -->
-		<script type="text/javascript" src="/js/jquery.lightbox-0.5.pack.js"></script>
+		<script type="text/javascript" src="/js/jquery.lightbox-0.5.js"></script>
 		{% for script in page.scripts %}
 		<script type="text/javascript" src="{{ script }}"></script>
 		{% endfor %}
 	</head>
 
 	<body>
-		<!-- Header Nav -->
-		<div class="header">
-			<a href="/">
-				<img id="sitelogo" src="/images/logo.png"/>
-			</a>
-			<ul class="navlinks">
-				<li {% if page.url contains 'trips/'%}class="cur"{%endif%}><a href="/trips/">Trips</a></li>
-				<li {%if page.url contains 'photos/'%}class="cur"{%endif%}><a href="">Photos</a></li>
-				<li><a href="/map.html">Map</a></li>
-				<li {%if page.url contains 'about.html'%}class="cur"{%endif%}><a href="/about.html">About</a></li>
-			</ul>
-			<span class="quote">"A journey is best measured in friends, rather than miles" <span> - Tim Cahill</span></span>
-		</div>
-		<!-- Header Nav End -->
+		<div class="width">
+			<!-- Header Nav -->
+			<div class="header">
+				<a href="/">
+					<img id="sitelogo" src="/images/logo.png"/>
+				</a>
+				<ul class="navlinks">
+					<li {% if page.url contains 'trips/'%}class="cur"{%endif%}><a href="/trips/">Trips</a></li>
+					<li {%if page.url contains 'photos/'%}class="cur"{%endif%}><a href="">Photos</a></li>
+					<li><a href="/map.html">Map</a></li>
+					<li {%if page.url contains 'about.html'%}class="cur"{%endif%}><a href="/about.html">About</a></li>
+				</ul>
+				<span class="quote">"A journey is best measured in friends, rather than miles" <span> - Tim Cahill</span></span>
+			</div>
+			<!-- Header Nav End -->
 
-		<!-- Content -->
-		<div class="pagecontent">
-			{{content}}
-		</div>
-		<!-- Content End -->
+			<!-- Content -->
+			<div class="pagecontent">
+				{{content}}
+			</div>
+			<!-- Content End -->
 
-		<!-- Footer -->
-		<div class="footer">
-			<a href="/atom.xml">feed</a> :: <a href="/uncopyright.html">uncopyright</a> :: <a href="http://github.com/throughnothing/travel-blog">source</a>
+			<!-- Footer -->
+			<div class="footer">
+				<a href="/atom.xml">feed</a> :: <a href="/uncopyright.html">uncopyright</a> :: <a href="http://github.com/throughnothing/travel-blog">source</a>
+			</div>
+			<!-- Footer End -->
 		</div>
-		<!-- Footer End -->
 
 
 		<!-- Google Analytics -->

@@ -1,13 +1,16 @@
 body {
 	background-image: url('/images/background.png');
 	background-color: #1f1f21;
-	width: 700px;
-	margin: 0 auto;
+	width: 100%;
+	margin: 0;
 	padding-top: 15px;
 	font: 14px Trebuchet, sans-serif;
 	color: #ddd;
 }
-
+div.width {
+	width: 700px;
+	margin: 0 auto;
+}
 img {
 	border: 0px;
 }
@@ -173,10 +176,9 @@ ul.posts li a {
 	color: #ffad33;
 }
 ul.posts a.map {
-	width: 22px;
-	padding: 11px;
+	padding: 0 11px;
 	background: url('/images/map_icon.png') no-repeat;
-	background-position: 3px 12px;
+	background-position: 3px 0px;
 }
 
 div.post {
@@ -346,3 +348,9 @@ body.map div.header {
 	z-index: -1;
 }
 /* End World Map */
+/* Google Maps Styles */
+div.gmnoprint img {
+	display: block;
+	margin: 0 auto;
+}
+/* End Google Maps Styles */

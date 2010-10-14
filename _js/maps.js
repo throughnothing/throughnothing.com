@@ -4,12 +4,15 @@ KML_PATH = "http://travel.throughnothing.com/kml/";
 /* Flickr Functions */
 function get_flickr_kml(date){
 	var dates = get_min_max_dates(date);
-	var kmlStr = 'http://pipes.yahoo.com/pipes/pipe.run' + 
+	var kmlStr = 'http://travel.throughnothing.com/kml/' + 
+		dates.minDateStr + '-photos.kml';
+	/*var kmlStr = 'http://pipes.yahoo.com/pipes/pipe.run' + 
 		'?_id=bdcb80ac39edf7febb833fd9c03e8759' + 
 		'&_render=kml&api_key=280bb4feb4e31caead70be49d570964e' +
 		'&min_taken_date=' + dates.minDateStr  + 
 		'&max_taken_date=' + dates.maxDateStr + 
 		'&nsid=45105880%40N00&per_page=500';
+	//*/
 	return kmlStr;
 }
 /* End Flickr Functions */
@@ -37,7 +40,8 @@ function world_map_init() {
 		hash_layer.setMap(map);
 
 		//Add Flickr Layer
-		var kmlStr = get_flickr_kml(new Date(dateStr));
+		var dateParts = dateStr.split('-');
+		var kmlStr = get_flickr_kml(new Date(dateParts[0],dateParts[1]-1,dateParts[2]));
 		var photos = new google.maps.KmlLayer(kmlStr);
 		photos.setMap(map);
 	}else{

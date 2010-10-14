@@ -2,7 +2,7 @@
 category_dir: trips
 category_title_prefix: "Trips &raquo; "
 
-paginate: 5
+paginate: 10
 safe:        false
 auto:        false
 server:      false

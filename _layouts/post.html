@@ -5,7 +5,12 @@ scripts:
 ---
 <script type="text/javascript">
 	$(document).ready(function(){
-		$('.post a img').parent().lightBox();
+			$('.post a img').parent().lightBox({
+				overlayBgColor: '#000',
+				overlayOpacity: 0.9,
+				containerResizeSpeed: 450,
+				txtImage: 'Photo',
+   });
 	});
 </script>
 {% include single_post.html %}
