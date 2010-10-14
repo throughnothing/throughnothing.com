@@ -103,6 +103,8 @@ ul.navlinks li.cur a {
 }
 #hp_images li {
 	float: left;
+	width: 87px;
+	height: 77px;
 }
 #hp_images img {
 	border: 1px solid #000;;
