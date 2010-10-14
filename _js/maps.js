@@ -3,7 +3,9 @@ KML_PATH = "http://travel.throughnothing.com/kml/";
 /* Flickr Functions */
 function get_flickr_kml(date){
 	var dates = get_min_max_dates(date);
-	var kmlStr = KML_PATH + dates.minDateStr + '-photos.kml?dummy=' + (new Date().getTime());
+	//For testing when google wants to cache the kml files :P
+	//var kmlStr = KML_PATH + dates.minDateStr + '-photos.kml?dummy=' + (new Date().getTime());
+	var kmlStr = KML_PATH + dates.minDateStr + '-photos.kml';
 	return kmlStr;
 }
 /* End Flickr Functions */
