@@ -9,9 +9,9 @@ No permission is needed to copy, distribute, or modify the content of this site.
 
 The source code for this entire site can be found "here":src
 
-For more information on why copyright is bad, and why I chose to uncopyright my work, check out some of the links below.
+For more information on why copyright is bad, and why I chose to uncopyright my work, check out some of the links below:
 
-* "Question Copyright":qc
+(normal)* "Question Copyright":qc
 * "Misinterpreting Copyright":mc
 * "The Surprising History of Copyright and the Promise of a Post-Copyright World":ppcw
 * "Abandoning Copyright":ac

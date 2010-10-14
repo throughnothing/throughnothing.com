@@ -38,11 +38,20 @@ scripts:
 		<a target="_new" href="/map.html#{{ page.date | date: "%Y-%m-%d" }}" alt="Day Map" class="map"></a>
 		{% endif %}
 		<a href="{{ page.url }}">{{ page.title }}</a>
+		{% if page.categories != empty %}
+		<div class="categories">
+			Trip: 
+			{% for cat in page.categories %}
+				<a href="/trips/{{cat}}">{{cat}}</a>
+			{% endfor %}
+		</div>
+		{% endif %}
 	</li>
 	{% endfor %}
 </ul>
 
 
+{% if paginator.total_pages > 1 %}
 <div class="pagination">
 	{% if paginator.total_pages > paginator.page %}
 		<span class="prev">
@@ -61,3 +70,4 @@ scripts:
 		{% endif %}
 	{% endif %}
 </div>
+{%endif%}
