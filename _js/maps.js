@@ -1,18 +1,9 @@
-FLICKR_USER_ID="45105880%40N00";
 KML_PATH = "http://travel.throughnothing.com/kml/";
 
 /* Flickr Functions */
 function get_flickr_kml(date){
 	var dates = get_min_max_dates(date);
-	var kmlStr = 'http://travel.throughnothing.com/kml/' + 
-		dates.minDateStr + '-photos.kml';
-	/*var kmlStr = 'http://pipes.yahoo.com/pipes/pipe.run' + 
-		'?_id=bdcb80ac39edf7febb833fd9c03e8759' + 
-		'&_render=kml&api_key=280bb4feb4e31caead70be49d570964e' +
-		'&min_taken_date=' + dates.minDateStr  + 
-		'&max_taken_date=' + dates.maxDateStr + 
-		'&nsid=45105880%40N00&per_page=500';
-	//*/
+	var kmlStr = KML_PATH + dates.minDateStr + '-photos.kml';
 	return kmlStr;
 }
 /* End Flickr Functions */

@@ -24,7 +24,7 @@ KML_PLACEMARK="""
 </Placemark>"""
 
 KML_DESC="""
-<a href="[[PHOTO_URL]]" ><img alt="[[ALT]]" src="[[PHOTO_SRC]]"/></a>
+<center><a href="[[PHOTO_URL]]" ><img alt="[[ALT]]" src="[[PHOTO_SRC]]"/></a></center>
 <p>[[TEXT]]</p>
 """
 
