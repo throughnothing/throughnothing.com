@@ -11,7 +11,8 @@ namespace :site do
 	desc "minify all js files in _js/"
 	task :minjs do
 		puts "minify'ing js in _js/"
-		system('(cd _js; for f in *.js; do cat $f | ../_scripts/jsmin.py >> ../js/$f ; done)')
+		system('mkdir -p js &&
+			 (cd _js; for f in *.js; do cat $f | ../_scripts/jsmin.py > ../js/$f ; done)')
 		puts "minify'ing js in _js/ complete"
 	end
 
