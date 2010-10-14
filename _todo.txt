@@ -1,6 +1,7 @@
 TODO:
 	Photos Section (Python script to auto-generate (json objects?) from flickr api?)
 	Make Global Map Load Photos (and kml?) based on BBOX
+		- web.py script with modwsgi
 	Minify css on build(slimmer?, juicer (ruby)) (cssutils http://code.google.com/p/cssutils/)
 	Disqus for comments system?
 
