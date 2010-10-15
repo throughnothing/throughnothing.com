@@ -57,7 +57,7 @@ namespace :site do
 		desc "generate _js/photos_json.js file for flickr"
 		task :photos_json do
 			puts "generating photos_json.js"
-			system('python _scripts/flickr_json_generator.py > _js/photos_json.js')
+			system('./_scripts/flickr_generator.py travel_photos_json > _js/photos_json.js')
 			puts "generating photos_json.js complete"
 		end
 	end
