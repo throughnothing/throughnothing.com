@@ -2,6 +2,9 @@
 category_dir: trips
 category_title_prefix: "Trips &raquo; "
 
+#Files to exclude
+exclude: Rakefile
+
 paginate: 10 
 safe:        false
 auto:        false
