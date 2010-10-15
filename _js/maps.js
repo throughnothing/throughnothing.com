@@ -39,11 +39,14 @@ function world_map_init() {
 		photos.setMap(map);
 	}else{
 		var flayer = new google.maps.KmlLayer(
-				'http://pipes.yahoo.com/pipes/pipe.run' + 
+				KML_PATH + 'all_photos.kml');
+		/*var flayer = new google.maps.KmlLayer(
+				'http://pipes.yahoo.com/pipespipe.run' + 
 				'?_id=bdcb80ac39edf7febb833fd9c03e8759&_render=kml' +
 				'&api_key=280bb4feb4e31caead70be49d570964e' +
 				'&nsid=45105880%40N00&per_page=500'
 			);
+			*/
 		flayer.setMap(map);
 	}
 }
