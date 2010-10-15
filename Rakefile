@@ -36,7 +36,7 @@ namespace :site do
 
 	desc "rsync _site"
 	task :rsync => :"build:prod" do
-		system('rsync -arz _site/ throughnothing@throughnothing.com:/var/www/travel.throughnothing.com')
+		system('rsync -rz --delete _site/ throughnothing@throughnothing.com:/var/www/travel.throughnothing.com')
 	end
 
 	desc "deploy the application"
