@@ -6,16 +6,9 @@ scripts:
 - /js/photos.js
 - /js/maps.js
 ---
-<script type="text/javascript">
-	$(document).ready(function(){
-		$('#hp_images a img').parent().lightBox({
-				overlayBgColor: '#000',
-				overlayOpacity: 0.9,
-				containerResizeSpeed: 450,
-				txtImage: 'Photo',
-   });
-	});
-</script>
+{% assign selector = '#hp_images a img' %}
+{% include lightbox.html %}
+
 <div id="hp_images">
 	<ul>
 		<li><a><img/></a></li>
@@ -31,43 +24,9 @@ scripts:
 
 <ul class='posts'>
 	{% for page in paginator.posts %}
-	<li>
-		<span>{{ page.date | date: "%h %d, %Y"}}</span> 
-		&raquo; 
-		{% if page.kml %}
-		<a target="_new" href="/map.html#{{ page.date | date: "%Y-%m-%d" }}" alt="Day Map" class="map"></a>
-		{% endif %}
-		<a href="{{ page.url }}">{{ page.title }}</a>
-		{% if page.categories != empty %}
-		<div class="categories">
-			Trip: 
-			{% for cat in page.categories %}
-				<a href="/trips/{{cat}}">{{cat}}</a>
-			{% endfor %}
-		</div>
-		{% endif %}
-	</li>
+		{%include single_post_list.html%}
 	{% endfor %}
 </ul>
 
 
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-	{% if paginator.total_pages > paginator.page %}
-		<span class="prev">
-			&laquo; <a href="/page{{ paginator.next_page}}/">Older Entries</a>
-		</span>
-	{% endif %}
-	{% if paginator.page > 2 %}
-		<span class="next">
-			<a href="/page{{ paginator.previous_page}}/">Newer Entries</a> &raquo;
-		</span>
-	{% else %}
-		{%if paginator.page == 2 %}
-		<span class="next">
-			<a href="/">Newer Entries</a> &raquo;
-		</span>
-		{% endif %}
-	{% endif %}
-</div>
-{%endif%}
+{% include pagination.html %}

@@ -1,0 +1,16 @@
+<li>
+	<span>{{ page.date | date: "%h %d, %Y"}}</span> 
+	&raquo; 
+	{% if page.kml %}
+	<a target="_new" href="/map.html#{{ page.date | date: "%Y-%m-%d" }}" alt="Day Map" class="map"></a>
+	{% endif %}
+	<a href="{{ page.url }}">{{ page.title }}</a>
+	{% if page.categories != empty %}
+	<div class="categories">
+		Trip: 
+		{% for cat in page.categories %}
+			<a href="/trips/{{cat}}">{{cat}}</a>
+		{% endfor %}
+	</div>
+	{% endif %}
+</li>
