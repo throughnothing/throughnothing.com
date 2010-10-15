@@ -1,7 +1,7 @@
 KML_PATH = "http://travel.throughnothing.com/kml/";
 
 /* Flickr Functions */
-function get_flickr_kml(date){
+function get_photos_kml(date){
 	var dates = get_min_max_dates(date);
 	//For testing when google wants to cache the kml files :P
 	//var kmlStr = KML_PATH + dates.minDateStr + '-photos.kml?dummy=' + (new Date().getTime());
@@ -34,7 +34,7 @@ function world_map_init() {
 
 		//Add Flickr Layer
 		var dateParts = dateStr.split('-');
-		var kmlStr = get_flickr_kml(new Date(dateParts[0],dateParts[1]-1,dateParts[2]));
+		var kmlStr = get_photos_kml(new Date(dateParts[0],dateParts[1]-1,dateParts[2]));
 		var photos = new google.maps.KmlLayer(kmlStr);
 		photos.setMap(map);
 	}else{
@@ -70,7 +70,7 @@ function day_map_init(elem, date) {
 		route.setMap(map);
 	}
 
-	var kmlStr = get_flickr_kml(date);
+	var kmlStr = get_photos_kml(date);
 	var photos = new google.maps.KmlLayer(kmlStr);
 	photos.setMap(map);
 
