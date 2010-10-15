@@ -25,7 +25,7 @@ namespace :site do
 		end
 
 		desc "build pro"
-		task :pro => [:delete,:minjs] do
+		task :prod => [:delete,:minjs] do
 			puts "building _site"
 			puts "building production _site"
 			system('ejekyll')
@@ -35,7 +35,7 @@ namespace :site do
 	end
 
 	desc "rsync _site"
-	task :rsync => :"build:pro" do
+	task :rsync => :"build:prod" do
 		system('rsync -arz _site/ throughnothing@throughnothing.com:/var/www/travel.throughnothing.com')
 	end
 
@@ -47,7 +47,7 @@ namespace :site do
 		end
 
 		desc "builds the production _site and deploys it"
-		task :pro => [:rsync] do
+		task :prod => [:rsync] do
 			puts "pro site deployed"
 		end
 	end
