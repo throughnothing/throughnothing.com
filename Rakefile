@@ -60,5 +60,12 @@ namespace :site do
 			system('./_scripts/flickr_generator.py travel_photos_json > _js/photos_json.js')
 			puts "generating photos_json.js complete"
 		end
+		desc "generate _js/photos_json.js file for flickr"
+		task :photos_kml_date, :date do |t, args|
+			date = args[:date]
+			puts "generating kml/#{date}-photos.kml"
+			system("./_scripts/flickr_generator.py photos_kml_date #{date} > kml/#{date}-photos.kml")
+			puts "generating kml/#{date}-photos.kml complete"
+		end
 	end
 end

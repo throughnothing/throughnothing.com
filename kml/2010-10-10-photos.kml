@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.1">
-<Document><name>Travelling Two Geotagged Photos for 2010-10-10</name>
+<Document><name>Travelling Two Geotagged Photos for [[DATE]]</name>
 <description><![CDATA[Geotagged Images from our travels.]]></description>
 
 <Placemark><name>Persistence trot with barefoot Ted</name>
@@ -16,6 +16,20 @@
 <p>Barefoot Ted Eating a Wild Fruit From a NYC Tree on Governor's Island</p>
 ]]></description>
 <Point><coordinates>-74.024688,40.687813</coordinates></Point>
+</Placemark>
+<Placemark><name>Bye Bye NYC</name>
+<description><![CDATA[
+<center><a href="http://farm5.static.flickr.com/4130/5074242236_892f525662_z.jpg" ><img alt="Bye Bye NYC" src="http://farm5.static.flickr.com/4130/5074242236_892f525662_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-74.054669,40.722217</coordinates></Point>
+</Placemark>
+<Placemark><name>Tunnel out of NYC</name>
+<description><![CDATA[
+<center><a href="http://farm5.static.flickr.com/4154/5074241626_e5aa525a4c_z.jpg" ><img alt="Tunnel out of NYC" src="http://farm5.static.flickr.com/4154/5074241626_e5aa525a4c_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-74.016711,40.726921</coordinates></Point>
 </Placemark>
 <Placemark><name>Dog Free !?! :(</name>
 <description><![CDATA[
