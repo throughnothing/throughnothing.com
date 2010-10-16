@@ -202,7 +202,19 @@ ul.posts a.map {
 	background: url('/images/map_icon.png') no-repeat;
 	background-position: 3px 0px;
 }
-
+span.fl {
+	font-size: 40px;
+	line-height: 30px;
+	font-family: georgia, serif;
+	float:left;
+	margin-right: 3px;
+	margin-top: 3px;
+}
+p.jump{
+	text-align: center !important;
+	color: #444;
+	padding-bottom: 15px;
+}
 div.post {
 	clear: both;
 }

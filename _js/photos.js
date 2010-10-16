@@ -50,6 +50,7 @@ $(document).ready(function(){
 		photos = photos.concat(FLICKR_SETS[i].photos);
 	}
 
-	random_photos(0).delay(2000).setTimeout(preload_images,100);
+	random_photos(0);
+	setTimeout(preload_images,2000);
 	setInterval('random_photos(500)',20000);
 });
