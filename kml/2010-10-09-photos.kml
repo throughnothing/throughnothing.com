@@ -1,8 +1,31 @@
+Page: 1/1
+Photos: 21
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.1">
-<Document><name>Travelling Two Geotagged Photos for 2010-10-09</name>
+<Document><name>Travelling Two Geotagged Photos for [[DATE]]</name>
 <description><![CDATA[Geotagged Images from our travels.]]></description>
 
+<Placemark><name>IMG_0061</name>
+<description><![CDATA[
+<center><a href="http://farm5.static.flickr.com/4124/5085080143_eff67c7ebe_z.jpg" ><img alt="IMG_0061" src="http://farm5.static.flickr.com/4124/5085080143_eff67c7ebe_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-73.975903,40.7737</coordinates></Point>
+</Placemark>
+<Placemark><name>IMG_0059</name>
+<description><![CDATA[
+<center><a href="http://farm5.static.flickr.com/4128/5085676430_5cbdc78d70_z.jpg" ><img alt="IMG_0059" src="http://farm5.static.flickr.com/4128/5085676430_5cbdc78d70_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-73.975903,40.7737</coordinates></Point>
+</Placemark>
+<Placemark><name>IMG_0049</name>
+<description><![CDATA[
+<center><a href="http://farm5.static.flickr.com/4110/5085675664_453b486c25_z.jpg" ><img alt="IMG_0049" src="http://farm5.static.flickr.com/4110/5085675664_453b486c25_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-74.006491,40.709548</coordinates></Point>
+</Placemark>
 <Placemark><name>Jason Robillard and I</name>
 <description><![CDATA[
 <center><a href="http://farm5.static.flickr.com/4130/5073873720_956f138b84_z.jpg" ><img alt="Jason Robillard and I" src="http://farm5.static.flickr.com/4130/5073873720_956f138b84_m.jpg"/></a></center>
