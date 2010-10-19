@@ -1,11 +1,13 @@
 body {
-	background-image: url('/images/background.png');
 	background-color: #1f1f21;
 	width: 100%;
 	margin: 0;
 	padding-top: 15px;
-	font: 16px Trebuchet, sans-serif;
-	color: #ddd;
+	font-family: Helvetica, Trebuchet, Arial, serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 21px;
+	color: #ccc;
 }
 div.width {
 	width: 700px;
@@ -29,10 +31,10 @@ em{
 	font-style: italic;
 }
 h1 {
-	color: #ffad33;
 	margin: 0px 0px 0px 0px;
 	padding: 0px;
-	font-size: 25px;
+	font-size: 22px;
+	font-variant: small-caps;
 }
 h2 {
 	margin: 0px;
@@ -40,15 +42,11 @@ h2 {
 	font-size: 20px;
 }
 a {
-	color: #8a8ae5;
-	text-decoration: none
+	color: #888;
+	text-decoration: none;
 }
 a:hover {
 	color: #e55c00;
-	color: #bfb384;
-	color: #bfa384;
-	color: #d9860b;
-	color: #ff8000;
 	text-decoration: underline;
 }
 
@@ -60,14 +58,16 @@ div.header {
 	margin-bottom: 20px;
 }
 div.header span.quote {
+	letter-spacing: 1px;
+	line-height: 16px;
 	display: none;
 	position: absolute;
-	top: 43px;
+	top: 49px;
 	left: 102px;
 	font-size: 14px;
 	font-style: italic;
 	font-weight: bold;
-	color: #aaa;
+	color: #888;
 }
 img.sitelogo {
 	z-index: 6;
@@ -84,6 +84,8 @@ ul.navlinks {
 	top: 5px;
 	left: 80px;
 	list-style-type: none;
+	font-variant:small-caps;
+	font-size: 18px;
 	
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -96,17 +98,19 @@ ul.navlinks {
 ul.navlinks li {
 	float: left;
 	margin-right: 20px;
-	font-weight: bold;
+}
+ul.navlinks a {
+	color: #ccc;
 }
 ul.navlinks li.cur a {
-	color: #ff8000;
+	color: #e55c00;
 }
 /* End Site Header */
 
 /* Home Page */
 #hp_images {
 	overflow: hidden;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 #hp_images li {
 	float: left;
@@ -114,16 +118,14 @@ ul.navlinks li.cur a {
 	height: 87px;
 }
 #hp_images img {
-	margin-top: 5px;
+	margin-top: 4px;
 	border: 1px solid #000;;
-	margin-left: 7px;
 	-moz-box-shadow: 0px 0px 0px #000;
 	-webkit-box-shadow: 0px 0px 0px #000;
 	box-shadow: 0px 0px 0px #000;
 }
 #hp_images img:hover {
 	border: 1px solid #444;
-	margin-left: 7px;
 	-moz-box-shadow: 0px 0px 5px #777;
 	-webkit-box-shadow: 0px 0px 5px #777;
 	box-shadow: 0px 0px 5px #777;
@@ -178,37 +180,36 @@ ul.entrylist li {
 
 /* Post */
 ul.posts li {
-	font-size: 16px;
+	font-size: 19px;
 	margin-bottom: 18px;
+	font-variant: small-caps;
+}
+ul.posts li a {
+	color: #ccc;
 }
 ul.posts li span{
 	font-size: 12px;
 	font-weight: bold;
 	color: #777;
 }
-ul.posts li a {
-	color: #ffad33;
-}
 ul.posts div.categories {
-	font-size: 10px;
+	font-size: 12px;
 	font-weight: bold;
 	margin-left: 104px;
-}
-ul.posts div.categories a {
-	color: #8a8ae5;
 }
 ul.posts a.map {
 	padding: 0 11px;
 	background: url('/images/map_icon.png') no-repeat;
 	background-position: 3px 0px;
+	margin-left: -4px;
 }
 span.fl {
-	font-size: 40px;
-	line-height: 30px;
+	font-size: 44px;
+	line-height: 36px;
 	font-family: georgia, serif;
 	float:left;
 	margin-right: 3px;
-	margin-top: 3px;
+	margin-top: 1px;
 }
 p.jump{
 	text-align: center !important;
@@ -220,20 +221,11 @@ div.post {
 }
 div.post h2 {
 	font-size: 22px;
-	color: #ffad33;
 }
 div.post h2 a {
 	margin: 0px;
 	padding: 0px;
 	font-size: 22px;
-	color: #8ae5b8;
-	color: #2db259;
-	color: #2a8c2a;
-	color: #c1e58a;
-	color: #E0BD11;
-	color: #edc600;
-	color: #e59317;
-	color: #ffad33;
 }
 div.title_list {
 	margin-bottom: 50px;
@@ -251,6 +243,7 @@ div.post div.content:first-letter {
 	font-size: 24px;
 }
 div.post div.data {
+	color: #777;
 	width: 100%;
 	font-size: 12px;
 	margin-bottom: 2px;
@@ -263,15 +256,15 @@ div.post div.data div.categories {
 div.post div.data div.date {
 	font-weight: bold;
 	float: left;
+	color: #bbb;
 }
 div.post div.data div.author {
 	float: left;
-	margin-left: 2px;
+	margin-left: 4px;
 	font-weight: bold;
-	color: #888;
+	color: #777;
 }
 div.post div.data div.map {
-	color: #F25223;
 	color: #ff7519;
 	cursor: pointer;
 	width: 22px;
@@ -339,15 +332,15 @@ div.pagination span.next {
 div.footer {
 	clear: both;
 	text-align: center;
-	font-size: 11px;
-	border-top: 1px dashed #555;
+	font-size: 12px;
+	border-top: 1px dashed #444;
 	padding-top: 10px;
 	margin-top: 50px;
 	padding-bottom: 50px;
-	color: #777;
+	color: #666;
 }
 div.footer a {
-	color: #888;
+	color: #666;
 }
 /* End Footer */
 
