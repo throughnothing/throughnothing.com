@@ -4,7 +4,7 @@ title: About Us...
 ---
 h1. About Us
 
-Hey everyone.  We are Will and Angelle, and we love travelling.  Whenever we aren't travelling, we are scheming our next getaway, dreaming about travelling, or (most likely) _both_!
+%(fl)H% ey everyone.  We are Will and Angelle, and we love travelling.  Whenever we aren't travelling, we are scheming our next getaway, dreaming about travelling, or (most likely) _both_!
 
 This blog is a place for us to document our travels, and allow us to share them with friends and family. Hopefully you'll enjoy it as much as we do, thanks for stopping by!
 

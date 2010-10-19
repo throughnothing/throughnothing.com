@@ -3,4 +3,4 @@ layout: post
 title: Hello World!
 author: Will
 ---
-Hey everyone.  This is a first post to get things started.  We will be adding journals and photos of our trips as we go.  We don't have any defined plans for exactly where we'll be going, or how we'll be using this site, but hopefully we will keep it updated as much as we can.  Check back for updates as they happen! 
+%(fl)H% ey everyone.  This is a first post to get things started.  We will be adding journals and photos of our trips as we go.  We don't have any defined plans for exactly where we'll be going, or how we'll be using this site, but hopefully we will keep it updated as much as we can.  Check back for updates as they happen! 
