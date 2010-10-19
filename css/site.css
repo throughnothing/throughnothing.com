@@ -102,6 +102,9 @@ ul.navlinks li {
 ul.navlinks a {
   color: #ccc;
 }
+ul.navlinks a:hover {
+  color: #e55c00;
+}
 ul.navlinks li.cur a {
   color: #e55c00;
 }
@@ -186,6 +189,9 @@ ul.posts li {
 }
 ul.posts li a {
   color: #ccc;
+}
+ul.posts li a:hover {
+  color: #e55c00;
 }
 ul.posts li span{
   font-size: 12px;
