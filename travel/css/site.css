@@ -375,7 +375,6 @@ body.map div.header {
   top: 5px;
   margin: 0px;
   overflow: hidden;
-  width: 333px;
 }
 #world_map_canvas{
   position: absolute;
