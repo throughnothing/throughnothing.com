@@ -1,0 +1,3 @@
+body { letter-spacing: 5px; line-height: 50px; text-align: center; font-family: Helvetica, Trebuchet, Arial, serif; font-size: 32px; font-variant: small-caps; margin: 100px auto; width: 800px; background-color: #1f1f21; color: #777;}
+a { color: #bbb; text-decoration: none;}
+a:hover { color: #e55c00; text-decoration: underline;}
