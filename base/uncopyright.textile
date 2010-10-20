@@ -12,6 +12,8 @@ This site and its sub-domains are uncopyrighted. I release all claims on copyrig
 
 No permission is needed to copy, distribute, or modify the content of this site. Credit is appreciated but not required.
 
+The entire source code for this website is avaieble "here":src
+
 For more information on why copyright is bad, and why I chose to uncopyright my work, check out some of the links below:
 
 * "Question Copyright":qc
@@ -31,3 +33,5 @@ For more information on why copyright is bad, and why I chose to uncopyright my 
 [htww]http://www.ilanamercer.com/phprunner/public_article_list_view.php?editid1=219
 [molnari]http://praxeology.net/anticopyright.htm
 [mind]http://mnmlist.com/uncopyright-and-a-minimalist-mindset/
+
+[src]http://github.com/throughnothing/throughnothing.com
