@@ -23,7 +23,7 @@ ul {
 }
 ul.normal {
   margin-left: 15px;
-  list-style-type: circle;
+  list-style-type: disc;
 }
 
 em{
@@ -206,7 +206,7 @@ ul.posts div.categories {
 ul.posts a.map {
   padding: 0 11px;
   background: url('/images/map_icon.png') no-repeat;
-  background-position: 3px 0px;
+  background-position: 4px 5px;
   margin-left: -4px;
 }
 span.fl {
