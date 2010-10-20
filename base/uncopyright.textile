@@ -16,6 +16,7 @@ The "source code":src for this website is available online to everyone.
 
 For more information on why copyright is bad, and why I chose to uncopyright my work, check out some of the links below:
 
+* "Feel Free to Steal My Content":ff
 * "Question Copyright":qc
 * "Misinterpreting Copyright":mc
 * "The Surprising History of Copyright and the Promise of a Post-Copyright World":pr
@@ -26,6 +27,7 @@ For more information on why copyright is bad, and why I chose to uncopyright my 
 
 </div>
 
+[ff]http://zenhabits.net/open-source-blogging-feel-free-to-steal-my-content/
 [qc]http://questioncopyright.org/
 [mc]http://www.gnu.org/philosophy/misinterpreting-copyright.html
 [pr]http://questioncopyright.org/promise
