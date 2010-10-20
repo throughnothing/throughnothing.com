@@ -1,0 +1,13 @@
+---
+layout: default
+title: My Thoughts
+meta_keywords: william wolf, william, wolf, will, willwolf, development, software, programming, linux, travel, photography, photos, minimalism, simplicity, ubuntu
+meta_description: William Wolf's personal website.  It is a repository for his thoughts, writings, creativity, photographs, links, discussions, ideas, recordings, and anything else he comes up with.
+---
+
+{% for page in paginator.posts %}
+	<h2><a href="{{page.url}}">{{page.title}}</a></h2>
+	<div class='post'>
+		{{page.content}}
+	</div>
+{% endfor %}

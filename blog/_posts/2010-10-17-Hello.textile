@@ -1,0 +1,5 @@
+---
+layout: post
+title: Hello There
+---
+%(fl)T% his blog will be a place where I can write down my thoughts and my daily happenings as I see fit.  It may be updated frequently, and often it may be left unattended for a while.  We will see how it goes.
