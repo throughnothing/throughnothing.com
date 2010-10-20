@@ -3,11 +3,10 @@ body {
 	line-height: 20px;
 	font-family: Helvetica, Trebuchet, Arial, serif;
 	font-size: 18px;
-	text-align: justify;
 	margin: 60px auto;
 	width: 700px;
 	background-color: #1f1f21;
-	color: #ccc;
+	color: #ddd;
 }
 h1 {
 	text-align: center;
@@ -23,7 +22,7 @@ h2 {
 	color: #999;
 }
 a { 
-	color: #bbb;
+	color: #aaa;
 	text-decoration: none;
 }
 a:hover { 
