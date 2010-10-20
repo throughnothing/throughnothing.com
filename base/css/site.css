@@ -1,7 +1,43 @@
-body { letter-spacing: 5px; line-height: 50px; text-align: center; font-family: Helvetica, Trebuchet, Arial, serif; font-size: 32px; font-variant: small-caps; margin: 60px auto; width: 800px; background-color: #1f1f21; color: #777;}
-a { color: #bbb; text-decoration: none;}
-a:hover { color: #e55c00; text-decoration: underline;}
+body { 
+	letter-spacing: 5px;
+	line-height: 50px;
+	text-align: center;
+	font-family: Helvetica, Trebuchet, Arial, serif;
+	font-size: 32px;
+	font-variant: small-caps;
+	margin: 60px auto;
+	width: 800px;
+	background-color: #1f1f21;
+	color: #777;
+}
+a { 
+	color: #bbb;
+	text-decoration: none;
+}
+a:hover { 
+	color: #e55c00;
+	text-decoration: underline;
+}
 
-div.text { letter-spacing: 2px; line-height: 24px; font-variant: normal; text-align: left; font-size: 18px;}
-ul { padding: 0; margin: 0 0 0 20px; list-style-type: square; color: #444;}
-h1 {text-align: center; font-variant: small-caps; color: #aaa; margin: 0; padding: 0; font-size: 32px; line-height: 25px;}
+div.text { 
+	letter-spacing: 2px;
+	line-height: 24px;
+	font-variant: normal;
+	text-align: left;
+	font-size: 18px;
+}
+ul { 
+	padding: 0;
+	margin: 0 0 0 20px;
+	list-style-type: square;
+	color: #444;
+}
+h1 {
+	text-align: center;
+	font-variant: small-caps;
+	color: #aaa;
+	margin: 0;
+	padding: 0;
+	font-size: 32px;
+	line-height: 25px;
+}
