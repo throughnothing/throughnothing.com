@@ -31,7 +31,7 @@ em{
   font-style: italic;
 }
 h1 {
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 25px 0px;
   padding: 0px;
   font-size: 22px;
   font-variant: small-caps;
@@ -107,6 +107,8 @@ ul.navlinks a:hover {
 }
 ul.navlinks li.cur a {
   color: #e55c00;
+	font-weight: bold;
+
 }
 /* End Site Header */
 
@@ -339,9 +341,9 @@ div.footer {
   clear: both;
   text-align: center;
   font-size: 12px;
-  border-top: 1px dashed #444;
-  padding-top: 10px;
-  margin-top: 50px;
+  border-top: 1px dashed #333;
+  padding-top: 20px;
+  margin-top: 70px;
   padding-bottom: 50px;
   color: #666;
 }
