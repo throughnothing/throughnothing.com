@@ -6,8 +6,11 @@ meta_description: William Wolf's personal website.  It is a repository for his t
 ---
 
 {% for page in paginator.posts %}
+<div class="post">
 	<h2><a href="{{page.url}}">{{page.title}}</a></h2>
-	<div class='post'>
+		<div class='date'>{{page.date | date: "%h %d, %Y"}}</div>
+	<div class='postbody'>
 		{{page.content}}
 	</div>
+</div>
 {% endfor %}

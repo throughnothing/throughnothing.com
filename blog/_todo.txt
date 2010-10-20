@@ -1,3 +1,3 @@
-add dates to posts
+google analytics
 show tags? allow tags to be viewed?
 categories?
