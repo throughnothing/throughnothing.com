@@ -207,7 +207,7 @@ ul.posts div.categories {
 ul.posts a.map {
   padding: 0 11px;
   background: url('/images/map_icon.png') no-repeat;
-  background-position: 4px 1px;
+  background-position: 4px 4px;
   margin-left: -4px;
 }
 span.fl {
