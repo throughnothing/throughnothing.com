@@ -38,6 +38,10 @@ ul {
 em {
 	font-weight: bold;
 }
+blockquote{
+  font-style: italic;
+  color: #aaa;
+}
 div.date {
 	position: absolute;
 	top: 0px;
