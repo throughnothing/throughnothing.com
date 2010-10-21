@@ -85,3 +85,6 @@ div.footer a:hover {
 	color: #aaa;	
 	text-decoration: underline;
 }
+div.pagination { overflow: hidden;}
+div.pagination span.prev { float: left; }
+div.pagination span.next { float: right; }
