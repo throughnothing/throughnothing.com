@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Creative Commons' Branding Confusion"
+published: true
+tags:
+- copyright
+- creative commons
+- philosophy
+---
+
+
+Nina Paley recently "wrote about":http://questioncopyright.org/CC-branding-confusion some of the issues she has had releasing some of her work under a Creative Commons-Share Alike license, as well some of the confusion brought about by the various creative commons licenses.
+
+bq..  
+  About a year and a half ago I released my film Sita Sings the Blues under a Creative Commons Attribution-ShareAlike license. That license allows truly free distribution, including commercial use, as long as the free license remains in place. But my experience is that most people see the words "Creative Commons" and simply assume the license is Non-Commercial -- because the majority of Creative Commons licenses they've seen elsewhere have been Non-Commercial.
+
+  This is a real problem. Some artists have re-released Sita remixes under Creative Commons Non-Commercial licenses. Many bloggers and journalists assume the non-commercial restrictions, even when the license is correctly named:
+
+The film was made available under a Creative Commons Attribution-Share Alike License, allowing third parties to share the creative content for non-commercial purposes freely as long as the author of the content is attributed as the creator of the work. --Frontline, India's National Magazine
+
+Initially I tried to explain what "ShareAlike" means, and asked "Sita" remixers to please switch to ShareAlike, per the terms of the ShareAlike license under which I released it. I felt like an ass; I don't want to be a licensing cop. After a while, mis-identifications of the project's license became so widespread I gave up trying to correct them. "Creative Commons" means "Non-Commercial" to most people. Fighting it is a sisyphean task.
+
+p. There seems to be a lot of confusion around Creative Commons with many people assuming that it is _always_ non-commercial, and others not understanding creative commons licenses at all.  The real tragedy is that Nina is trying to essentially have her work be open and available to anyone for any purpose, and people are still not understanding that.  Nina concludes:
+
+bq..
+I need a license that people understand. I'm tempted by the WTFPL but I would have to fork it to add a copyleft provision. The Do Whatever You Want And Don't Restrict Others From Doing Whatever They Want Public License? WTFDROPL?
+
+Are there any other useable Copyleft licenses out there that aren't associated with non-commercial restrictions? I'm open to suggestions. 
+
+p. It is an interesting question.  Being one who is very interested in the topic, I am very aware of the differences between the various Creative Commons Licenses, and never really thought there would be such confusion, but obviously that was a wrong assumption.  
+
+In some searching for other "copyleft":http://en.wikipedia.org/wiki/Copyleft licenses, I came across the "Free Art License":http://artlibre.org/licence/lal/en, which may be of some use to Nina.
+
+This brings up another interesting thought, however, and that is with regards to copyleft licenses versus public domain, or "uncopyright."  You may have noticed that all the material on my site(s) is "uncopyrighted" and that I release all of the content into the public domain.  Reading this article did make me think again about copyleft vs. public domain, as copyleft has the restriction that anyone creating derivative works from the original work, is forced to release their derivative works under the same license without restrictions.  This seems like it may have the benefit that society as a whole is guaranteed to have access to share, use, and benefit from any derivative works in exactly the same way that it could from the original.  It does, however, impose the creator's will onto others, and I still find this unnatural.  Copyleft essentially makes use of copyright to achieve its ends, but I'm still not sold that copyright is the way to go.  I will continue to release my content into the public domain, and use that as my "license" of choice wherever possible.
+
+As another side note, when is "flickr":http://www.flickr.com going to add a "public domain" option to their licensing options?  For now I am forced to chose Creative Commons-Share Alike, as that is the most liberal license (and a copyleft license), but I would prefer to be able to chose "public domain".  Come on flickr, can't we get that?!
+
+[ccbc]http://questioncopyright.org/CC-branding-confusion
