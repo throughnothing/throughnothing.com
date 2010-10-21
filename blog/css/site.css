@@ -3,7 +3,7 @@ body {
 	line-height: 20px;
 	font-family: Helvetica, Trebuchet, Arial, serif;
 	font-size: 16px;
-	margin: 60px auto;
+	margin: 20px auto;
 	width: 700px;
 	background-color: #1f1f21;
 	color: #ddd;
@@ -41,6 +41,18 @@ em {
 blockquote{
   font-style: italic;
   color: #aaa;
+}
+div.topbar {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+div.topbar a{
+  color: #444;
+  font-variant: small-caps;
+}
+div.topbar:hover a {
+  color: #aaa;
+  font-variant: small-caps;
 }
 div.date {
 	position: absolute;
