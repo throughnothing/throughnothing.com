@@ -22,8 +22,8 @@ Initially I tried to explain what "ShareAlike" means, and asked "Sita" remixers 
 
 p. There seems to be a lot of confusion around Creative Commons with many people assuming that it is _always_ non-commercial, and others not understanding creative commons licenses at all.  The real tragedy is that Nina is trying to essentially have her work be open and available to anyone for any purpose, and people are still not understanding that.  Nina concludes:
 
-bq..
-I need a license that people understand. I'm tempted by the WTFPL but I would have to fork it to add a copyleft provision. The Do Whatever You Want And Don't Restrict Others From Doing Whatever They Want Public License? WTFDROPL?
+bq.. 
+  I need a license that people understand. I'm tempted by the WTFPL but I would have to fork it to add a copyleft provision. The Do Whatever You Want And Don't Restrict Others From Doing Whatever They Want Public License? WTFDROPL?
 
 Are there any other useable Copyleft licenses out there that aren't associated with non-commercial restrictions? I'm open to suggestions. 
 
