@@ -79,14 +79,10 @@ class FlickrGenerator:
     if 'photos' in photos:
       pages =  photos['photos']['pages']
       my_photos.extend(photos['photos']['photo'])
-      print "Page: "  + str(photos['photos']['page']) + '/' + str(photos['photos']['pages'])
-      print "Photos: "  + str(len(photos['photos']['photo']))
       for i in range(2, int(pages) + 1):
         kwargs['page'] = i
         photos = self.call('photos_search',**kwargs)
         my_photos.extend(photos['photos']['photo'])
-        print "Page: "  + str(photos['photos']['page']) + '/' + str(photos['photos']['pages'])
-        print "Photos: "  + str(len(photos['photos']['photo']))
 
       return my_photos
     else:
