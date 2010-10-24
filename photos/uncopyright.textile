@@ -1,0 +1,33 @@
+---
+title: Uncopyright
+layout: default
+---
+h1. Uncopyright    
+
+This site and all content and photos contained within are uncopyrighted. I release all claims on copyright and put all the content (photos, articles, logos, etc.) of this website into the public domain.
+
+No permission is needed to copy, distribute, or modify the content of this site. Credit is very much appreciated but not required.
+
+The "source code":src for this website is available online to everyone.
+
+For more information on why copyright is bad, and why I chose to uncopyright my work, check out some of the links below:
+
+* "Feel Free to Steal My Content":ff
+* "Question Copyright":qc
+* "Misinterpreting Copyright":mc
+* "The Surprising History of Copyright and the Promise of a Post-Copyright World":pr
+* "Abandoning Copyright":ac
+* "How Things Would Work in a Copyright Free Universe":htww
+* "Molnari Institute Anti-Copyright Resources":molnari
+* "Uncopyright and the Minimalist Mindset":mind
+
+[ff]http://zenhabits.net/open-source-blogging-feel-free-to-steal-my-content/
+[qc]http://questioncopyright.org/
+[mc]http://www.gnu.org/philosophy/misinterpreting-copyright.html
+[pr]http://questioncopyright.org/promise
+[ac]http://www.culturelink.org/news/members/2005/members2005-011.html
+[htww]http://www.ilanamercer.com/phprunner/public_article_list_view.php?editid1=219
+[molnari]http://praxeology.net/anticopyright.htm
+[mind]http://mnmlist.com/uncopyright-and-a-minimalist-mindset/
+
+[src]http://github.com/throughnothing/throughnothing.com/tree/master/photos/

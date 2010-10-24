@@ -1,0 +1,9 @@
+---
+layout: default
+title: William Wolf
+meta_keywords: william wolf, william, wolf, will, willwolf, gimp, travel, photography, photos, minimalism, simplicity 
+meta_description: William Wolf's photos.  This is a repository for his photographs, drawings, creations, ideas, recordings, and anything else he comes up with to put here.
+---
+This will be a place for my photos and visual creations. 
+
+For now, check out my "flickr page":http://www.flickr.com/photos/throughnothing.
