@@ -4,7 +4,7 @@ title: William Wolf
 meta_keywords: william wolf, william, wolf, will, willwolf, development, software, programming, linux, travel, photography, photos, minimalism, simplicity, ubuntu
 meta_description: William Wolf's personal website.  It is a repository for his thoughts, writings, creativity, photographs, links, discussions, ideas, recordings, and anything else he comes up with.
 ---
-I'm William Wolf. I "run":run ("barefoot":bf), "photograph":photo, "write":write, "program":program, "travel":travel, and "bike".  Sometimes I "tweet":twitter.
+I'm William Wolf. I "run":run ("barefoot":bf), "photograph":photo, "write":write, "program":program, "travel":travel, and "bike":bike.  Sometimes I "tweet":twitter.
 
 <p><a href="/uncopyright.html"><img height="30" src="/images/pd-icon.png" alt="uncopyright"/></a></p>
 
