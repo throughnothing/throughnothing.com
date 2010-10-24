@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Minimal Text Editors"
+author: Will
+tags:
+- writing
+- software
+---
+
+Lately I've been wanting to do more writing.  I want to jot down my thoughts more often, and hopefully get better at both writing them down, and using writing as a way to organize and record my thoughts.  I've almost always used vim as my text editor, development platform, and just about everything else you can imagine, but lately i've been looking for something that might help me avoid the distractions of being in a terminal, and having multiple windows visible behind what i'm working on (usually browsers) etc.
+
+So in looking for some good minimal text editors, I came across two that I am going to be trying out.  The first, and probably more minimal of the two is "PyRoom":http://pyroom.org.  PyRoom is written in python and basically takes up your entire screen, with the middle section (height/width is adjustable) used for simple, plain text.  It doesn't have the power of vim in terms of keyboard shortcuts, but it does basic editing, and allows multiple buffers.  It does have a few keyboard shortcuts for closing buffers, switching buffers, etc., which is nice, but I want my insert/normal modes!  As I said, PyRoom is very minimal, with no menus or anything except for one preferences dialog that you can get to with Ctrl+p.  The colors are customizable, as well as the height/width as I said before, but other than that there isn't much to customize.
+
+The other editor I will be trying out is "FocusWriter":http://gottcode.org/focuswriter/.  FocusWriter is actually cross-platform, so I can use it on my Mac at work if I so desire.  It has a lot more features, and is a lot less minimal than PyRoom -- it does rich text editing, has menus, and even a hidden menu bar that can be pulled up.  When FocusWriter is run, the interface seems about the same as PyRoom, but by moving the mouse to the top, or bottom of the screen, you can show the menus, tab-bars, and toolbars that normally stay hidden from view.
+
+One nice feature about FocusWriter that I like is that you can set a daily goal for writing, such as 30 minutes, or 1,000 words, etc.  This may be nice as I try to get myself to do more writing, so that I could set goals and try to force myself to actually just write every day, no matter how terrible it may be :P
+
+So I'm going to try these two editors out for a while and see how it goes.  So far I've typed this whole post in PyRoom and like it.  It keeps the distractions at bay and lets me focus on my writing.  I feel like I may end up falling back to vim eventualy just because I love the power of vim for editing text, but it seems that these editors may provide a better level of focus that may be worth it.  We shall see.
