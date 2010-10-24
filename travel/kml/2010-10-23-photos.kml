@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document><name>Travelling Two Geotagged Photos for [[DATE]]</name>
+<description><![CDATA[Geotagged Images from our travels.]]></description>
+
+<Placemark><name>DSC_3778</name>
+<description><![CDATA[
+<center><a href="http://farm5.static.flickr.com/4127/5109407228_323c49ac43_z.jpg" ><img alt="DSC_3778" src="http://farm5.static.flickr.com/4127/5109407228_323c49ac43_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-77.007594,38.875949</coordinates></Point>
+</Placemark>
+<Placemark><name>DSC_3765</name>
+<description><![CDATA[
+<center><a href="http://farm2.static.flickr.com/1423/5109406534_878910336f_z.jpg" ><img alt="DSC_3765" src="http://farm2.static.flickr.com/1423/5109406534_878910336f_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-77.007594,38.875949</coordinates></Point>
+</Placemark>
+<Placemark><name>DSC_3764</name>
+<description><![CDATA[
+<center><a href="http://farm2.static.flickr.com/1356/5109405878_db6da2cc4d_z.jpg" ><img alt="DSC_3764" src="http://farm2.static.flickr.com/1356/5109405878_db6da2cc4d_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-77.007508,38.875665</coordinates></Point>
+</Placemark>
+<Placemark><name>DSC_3759</name>
+<description><![CDATA[
+<center><a href="http://farm2.static.flickr.com/1237/5108806789_7e15b2ffff_z.jpg" ><img alt="DSC_3759" src="http://farm2.static.flickr.com/1237/5108806789_7e15b2ffff_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-77.007433,38.875874</coordinates></Point>
+</Placemark>
+<Placemark><name>DSC_3758</name>
+<description><![CDATA[
+<center><a href="http://farm2.static.flickr.com/1316/5108806297_cf1c743837_z.jpg" ><img alt="DSC_3758" src="http://farm2.static.flickr.com/1316/5108806297_cf1c743837_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-77.007433,38.875874</coordinates></Point>
+</Placemark>
+<Placemark><name>DSC_3757</name>
+<description><![CDATA[
+<center><a href="http://farm2.static.flickr.com/1437/5109403986_ccf2f3f523_z.jpg" ><img alt="DSC_3757" src="http://farm2.static.flickr.com/1437/5109403986_ccf2f3f523_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-77.007486,38.876162</coordinates></Point>
+</Placemark>
+<Placemark><name>DSC_3755</name>
+<description><![CDATA[
+<center><a href="http://farm2.static.flickr.com/1235/5109403350_4cb9be14a1_z.jpg" ><img alt="DSC_3755" src="http://farm2.static.flickr.com/1235/5109403350_4cb9be14a1_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-77.007486,38.875916</coordinates></Point>
+</Placemark>
+<Placemark><name>Steppin out for diabetes in DC</name>
+<description><![CDATA[
+<center><a href="http://farm2.static.flickr.com/1237/5108512225_cec5feb963_z.jpg" ><img alt="Steppin out for diabetes in DC" src="http://farm2.static.flickr.com/1237/5108512225_cec5feb963_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-76.999901,38.8856</coordinates></Point>
+</Placemark>
+<Placemark><name>Steppin' out for diabetes in DC</name>
+<description><![CDATA[
+<center><a href="http://farm2.static.flickr.com/1329/5109108626_8221b2055c_z.jpg" ><img alt="Steppin' out for diabetes in DC" src="http://farm2.static.flickr.com/1329/5109108626_8221b2055c_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-77.001768,38.885195</coordinates></Point>
+</Placemark></Document></kml>
