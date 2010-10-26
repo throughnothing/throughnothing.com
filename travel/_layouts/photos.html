@@ -4,25 +4,17 @@
 	<head>
 		<title>{{page.title}}</title>
 		<link rel="stylesheet" href="/css/site.css"/>
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&region=US"></script>
+		<link rel="stylesheet" href="/css/nivo-slider.css"/>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-		<script type="text/javascript" src="/js/maps.js"></script>
-		<script>
-			$(document).ready(world_map_init);
-		</script>
+		<script type="text/javascript" src="/js/photos_json.js"></script>
+		<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
 	</head>
 	<body class="map">
 		<div class="header">
 			<a href="/">
 				<img id="sitelogo" src="/images/logo.png"/>
 			</a>
-				<ul class="navlinks">
-					<li><a href="/trips/">Trips</a></li>
-					<li><a href="/photos.html">Photos</a></li>
-					<li><a href="/about.html">About</a></li>
-				</ul>
 		</div>
-		<div id="world_map_canvas"></div>
+{{content}}
 	</body>
 </html>
-{{content}}
