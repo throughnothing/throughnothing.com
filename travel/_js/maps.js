@@ -57,7 +57,7 @@ function day_map_init(elem, date) {
   var kml = KML_PATH + dates.minDateStr + '.kml';
 
   var myOptions = { 
-    minZoom: 155555, 
+    minZoom: 5, 
     mapTypeId: google.maps.MapTypeId.HYBRID,
     disableDefaultUI: true,
     navigationControl: true,
@@ -76,7 +76,6 @@ function day_map_init(elem, date) {
   var kmlStr = get_photos_kml(date);
   var photos = new google.maps.KmlLayer(kmlStr);
   photos.setMap(map);
-
 }
 
 function mapt(elem){
