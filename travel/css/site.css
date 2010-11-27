@@ -388,6 +388,9 @@ body.map {
   padding: 0px;
   width: 100%;
 }
+body.map div.header {
+  width: 360px;
+}
 body.map ul.navlinks {
   position: absolute;
   top: 8px;
