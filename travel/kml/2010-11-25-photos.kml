@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document><name>Travelling Two Geotagged Photos for [[DATE]]</name>
+<description><![CDATA[Geotagged Images from our travels.]]></description>
+
+<Placemark><name>Jet Blue to Boston</name>
+<description><![CDATA[
+<center><a href="http://farm5.static.flickr.com/4103/5211973848_f83b4cb36f_z.jpg" ><img alt="Jet Blue to Boston" src="http://farm5.static.flickr.com/4103/5211973848_f83b4cb36f_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-73.145842,41.057705</coordinates></Point>
+</Placemark>
+<Placemark><name>Jet Blue to Boston</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5244/5211973606_80668c8294_z.jpg" ><img alt="Jet Blue to Boston" src="http://farm6.static.flickr.com/5244/5211973606_80668c8294_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-73.09487,41.091841</coordinates></Point>
+</Placemark></Document></kml>
