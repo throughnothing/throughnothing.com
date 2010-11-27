@@ -113,15 +113,22 @@ class FlickrGenerator:
     self._output("var FLICKR_SETS = " + json.dumps(sets))
 
 
-  def photos_kml_date(self, dateStr):
+  def photos_kml_date(self, dateStr, hourOffset=0):
     ds = dateStr.split('-')
     if len(ds) != 3 or len(ds[0]) != 4 or len(ds[1]) != 2 or len(ds[2]) != 2:
       return "Invalid Date"
 
+    tdelta = timedelta(hours=int(hourOffset))
+
     d = datetime.strptime(dateStr,'%Y-%m-%d')
+    if hourOffset > 0:
+      d = d + tdelta
+    if hourOffset < 0:
+      d = d - tdelta
+
     d2 = d + timedelta(days=1)
-    min_d = d.strftime('%Y-%m-%d')
-    max_d = d2.strftime('%Y-%m-%d')
+    min_d = d.strftime('%Y-%m-%d %H:%M:%S')
+    max_d = d2.strftime('%Y-%m-%d %H:%M:%S')
 
     args = {
       'user_id':FLICKR_USER_ID,
