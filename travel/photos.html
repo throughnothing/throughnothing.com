@@ -1,7 +1,72 @@
 ---
-layout: default
+layout: photos
 title: Our Travel Photos
-scripts:
-- /js/photos_json.js
-- /js/photos.js
 ---
+
+<script>
+function get_flickr_photo_url(p,size){
+  if(!size)
+    size = "";
+  else
+    size = "_" + size;
+  return "http://farm" + p.farm + ".static.flickr.com/" + 
+    p.server + "/" + p.id + "_" + p.secret + size + ".jpg";
+}
+
+  $(document).ready(function(){
+    var ss = $('#slideshow');
+    // Concatenate the latest Collection sets into one
+    var latest_set = FLICKR_SETS[0]['photos'];
+    for(var i = 0; i < latest_set.length; i++){
+      //var image = new Image();
+      //image.src = get_flickr_photo_url(latest_set[i],'z');
+      //ss.append(image);
+    }
+    ss.nivoSlider({
+      effect: 'random', 
+      animSpeed: 500, 
+      pauseTime: 5000,
+      directionNav: false,
+      controlNav: false
+    });
+  });
+</script>
+
+<div id='slideshow'>
+      <a href="http://farm2.static.flickr.com/1356/5109405878_db6da2cc4d_z.jpg">
+        <img src="http://farm2.static.flickr.com/1356/5109405878_db6da2cc4d_z.jpg"/>
+      </a>
+      <a href="http://farm2.static.flickr.com/1251/5112325087_5f58448f93_z.jpg">
+        <img src="http://farm2.static.flickr.com/1251/5112325087_5f58448f93_z.jpg"/>
+      </a>
+      <a href="http://farm2.static.flickr.com/1314/5112917728_3b17c6ed4c_z.jpg">
+        <img src="http://farm2.static.flickr.com/1314/5112917728_3b17c6ed4c_z.jpg"/>
+      </a>
+      <a href="http://farm2.static.flickr.com/1389/5109040435_7c28e711cc_z.jpg">
+        <img src="http://farm2.static.flickr.com/1389/5109040435_7c28e711cc_z.jpg"/>
+      </a>
+</div>
+
+
+<h2>2010</h2>
+<ul class="triplist_photos">
+  <li><a href=''>trip 2</a></li>
+  <li><a href=''>trip 3</a></li>
+  <li><a href=''>trip 4</a></li>
+  <li><a href=''>trip 5</a></li>
+  <li><a href=''>trip 6</a></li>
+  <li><a href=''>trip 6</a></li>
+  <li><a href=''>trip 6</a></li>
+  <li><a href=''>trip 6</a></li>
+  <li><a href=''>trip 6</a></li>
+  <li><a href=''>trip 6</a></li>
+  <li><a href=''>trip 6</a></li>
+  <li><a href=''>trip 6</a></li>
+  <li><a href=''>trip 6</a></li>
+  <li><a href=''>trip 6</a></li>
+  <li><a href=''>trip 6</a></li>
+  <li><a href=''>trip 6</a></li>
+  <li><a href=''>trip 6</a></li>
+</ul>
+<h2>2009</h2>
+<h2>2008</h2>
