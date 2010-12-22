@@ -5,7 +5,7 @@ category_title_prefix: "Trips &raquo; "
 #Files to exclude
 exclude: Rakefile
 
-paginate: 10 
+paginate: 1
 safe:        false
 auto:        false
 server:      false
