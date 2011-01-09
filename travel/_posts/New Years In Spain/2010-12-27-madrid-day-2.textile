@@ -1,0 +1,6 @@
+---
+layout: post
+title: Madrid!
+author: Will
+kml: 2010-12-27.kml
+---

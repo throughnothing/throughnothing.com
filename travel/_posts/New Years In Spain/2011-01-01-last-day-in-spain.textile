@@ -1,0 +1,6 @@
+---
+layout: post
+title: Barcelona...Last Day in Spain :(
+author: Will
+kml: 2011-01-01.kml
+---
