@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document><name>Travelling Two Geotagged Photos for [[DATE]]</name>
+<description><![CDATA[Geotagged Images from our travels.]]></description>
+
+<Placemark><name>Leaving DC</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5010/5317750507_5b25a45777_z.jpg" ><img alt="Leaving DC" src="http://farm6.static.flickr.com/5010/5317750507_5b25a45777_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-77.211681,38.873038</coordinates></Point>
+</Placemark></Document></kml>

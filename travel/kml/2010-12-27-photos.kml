@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document><name>Travelling Two Geotagged Photos for [[DATE]]</name>
+<description><![CDATA[Geotagged Images from our travels.]]></description>
+
+<Placemark><name>Chocolate and Churros</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5084/5318385970_55ec48cd1c_z.jpg" ><img alt="Chocolate and Churros" src="http://farm6.static.flickr.com/5084/5318385970_55ec48cd1c_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.708717,40.417105</coordinates></Point>
+</Placemark>
+<Placemark><name>Metro from Airport in Madrid</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5170/5317750165_d5194d2dd9_z.jpg" ><img alt="Metro from Airport in Madrid" src="http://farm6.static.flickr.com/5170/5317750165_d5194d2dd9_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.593167,40.492125</coordinates></Point>
+</Placemark>
+<Placemark><name>Figuring out the metro</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5201/5318344106_594793eb0a_z.jpg" ><img alt="Figuring out the metro" src="http://farm6.static.flickr.com/5201/5318344106_594793eb0a_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.593167,40.492125</coordinates></Point>
+</Placemark>
+<Placemark><name>Got the Metro Figured out</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5122/5318343524_2784ae0fb0_z.jpg" ><img alt="Got the Metro Figured out" src="http://farm6.static.flickr.com/5122/5318343524_2784ae0fb0_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.593167,40.492125</coordinates></Point>
+</Placemark>
+<Placemark><name>On the Metro</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5008/5317748697_3449b623d8_z.jpg" ><img alt="On the Metro" src="http://farm6.static.flickr.com/5008/5317748697_3449b623d8_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.593167,40.492125</coordinates></Point>
+</Placemark>
+<Placemark><name>Maze of underground walkways</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5207/5317748275_e24fc75771_z.jpg" ><img alt="Maze of underground walkways" src="http://farm6.static.flickr.com/5207/5317748275_e24fc75771_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.593167,40.492125</coordinates></Point>
+</Placemark>
+<Placemark><name>Change Trains</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5006/5317747883_d9b1f57160_z.jpg" ><img alt="Change Trains" src="http://farm6.static.flickr.com/5006/5317747883_d9b1f57160_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.593167,40.492125</coordinates></Point>
+</Placemark>
+<Placemark><name>More walkways</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5286/5318341808_5363eb8e30_z.jpg" ><img alt="More walkways" src="http://farm6.static.flickr.com/5286/5318341808_5363eb8e30_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.593167,40.492125</coordinates></Point>
+</Placemark>
+<Placemark><name>Hotel High Tech Avenida</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5050/5317746903_65f4925407_z.jpg" ><img alt="Hotel High Tech Avenida" src="http://farm6.static.flickr.com/5050/5317746903_65f4925407_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.703514,40.420411</coordinates></Point>
+</Placemark>
+<Placemark><name>El Corte Ingles Near Hotel</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5287/5318340892_011a129793_z.jpg" ><img alt="El Corte Ingles Near Hotel" src="http://farm6.static.flickr.com/5287/5318340892_011a129793_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.705287,40.418005</coordinates></Point>
+</Placemark>
+<Placemark><name>First Meal in Madrid</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5250/5317745877_1c184511ca_z.jpg" ><img alt="First Meal in Madrid" src="http://farm6.static.flickr.com/5250/5317745877_1c184511ca_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.710475,40.417341</coordinates></Point>
+</Placemark>
+<Placemark><name>Blaine and Brad Enjoying some Wine</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5286/5317745385_710b419fa3_z.jpg" ><img alt="Blaine and Brad Enjoying some Wine" src="http://farm6.static.flickr.com/5286/5317745385_710b419fa3_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.710475,40.417341</coordinates></Point>
+</Placemark>
+<Placemark><name>Jen Finishing off her glass</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5123/5318339456_b482fb4e0f_z.jpg" ><img alt="Jen Finishing off her glass" src="http://farm6.static.flickr.com/5123/5318339456_b482fb4e0f_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.710475,40.417341</coordinates></Point>
+</Placemark>
+<Placemark><name>Delicious Salad</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5286/5318339004_da576da26e_z.jpg" ><img alt="Delicious Salad" src="http://farm6.static.flickr.com/5286/5318339004_da576da26e_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.710475,40.417341</coordinates></Point>
+</Placemark>
+<Placemark><name>And of course, Cafe</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5164/5318338294_604137084b_z.jpg" ><img alt="And of course, Cafe" src="http://farm6.static.flickr.com/5164/5318338294_604137084b_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.710475,40.417341</coordinates></Point>
+</Placemark>
+<Placemark><name>Blaine doin' his thang</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5047/5317743147_962eae1da2_z.jpg" ><img alt="Blaine doin' his thang" src="http://farm6.static.flickr.com/5047/5317743147_962eae1da2_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.700378,40.414633</coordinates></Point>
+</Placemark>
+<Placemark><name>At the Metro Stop</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5250/5317742513_661102575e_z.jpg" ><img alt="At the Metro Stop" src="http://farm6.static.flickr.com/5250/5317742513_661102575e_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.700378,40.414633</coordinates></Point>
+</Placemark>
+<Placemark><name>Metro Handlebars</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5208/5318336280_4cf7daf90f_z.jpg" ><img alt="Metro Handlebars" src="http://farm6.static.flickr.com/5208/5318336280_4cf7daf90f_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.700378,40.414633</coordinates></Point>
+</Placemark>
+<Placemark><name>Reina Museum</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5041/5318335514_eaf440f341_z.jpg" ><img alt="Reina Museum" src="http://farm6.static.flickr.com/5041/5318335514_eaf440f341_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.693806,40.408866</coordinates></Point>
+</Placemark>
+<Placemark><name>DSC_5108</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5286/5317740015_297cb02014_z.jpg" ><img alt="DSC_5108" src="http://farm6.static.flickr.com/5286/5317740015_297cb02014_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.6939,40.408341</coordinates></Point>
+</Placemark>
+<Placemark><name>DSC_5110</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5086/5318334180_6b287db0c3_z.jpg" ><img alt="DSC_5110" src="http://farm6.static.flickr.com/5086/5318334180_6b287db0c3_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.6939,40.408341</coordinates></Point>
+</Placemark>
+<Placemark><name>Dali Sculpture</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5123/5317737673_0b783d77bf_z.jpg" ><img alt="Dali Sculpture" src="http://farm6.static.flickr.com/5123/5317737673_0b783d77bf_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.6939,40.408341</coordinates></Point>
+</Placemark>
+<Placemark><name>DSC_5119</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5246/5317737029_ab43d1cd04_z.jpg" ><img alt="DSC_5119" src="http://farm6.static.flickr.com/5246/5317737029_ab43d1cd04_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.6939,40.408341</coordinates></Point>
+</Placemark>
+<Placemark><name>DSC_5127</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5285/5317736311_22fea5dfcf_z.jpg" ><img alt="DSC_5127" src="http://farm6.static.flickr.com/5285/5317736311_22fea5dfcf_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.703187,40.417011</coordinates></Point>
+</Placemark>
+<Placemark><name>DSC_5128</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5084/5318330242_2701abcfbb_z.jpg" ><img alt="DSC_5128" src="http://farm6.static.flickr.com/5084/5318330242_2701abcfbb_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.700348,40.417697</coordinates></Point>
+</Placemark>
+<Placemark><name>DSC_5131</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5084/5317734911_a678ff252e_z.jpg" ><img alt="DSC_5131" src="http://farm6.static.flickr.com/5084/5317734911_a678ff252e_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.699734,40.417825</coordinates></Point>
+</Placemark>
+<Placemark><name>Christmas lighting on the streets</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5090/5318328990_bcc0b4306d_z.jpg" ><img alt="Christmas lighting on the streets" src="http://farm6.static.flickr.com/5090/5318328990_bcc0b4306d_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.704806,40.416616</coordinates></Point>
+</Placemark>
+<Placemark><name>Plaza Mayor in Madrid</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5168/5318328048_354f1492b3_z.jpg" ><img alt="Plaza Mayor in Madrid" src="http://farm6.static.flickr.com/5168/5318328048_354f1492b3_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.706725,40.415663</coordinates></Point>
+</Placemark>
+<Placemark><name>Mercado de San Miguel</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5169/5317732849_e8c5116847_z.jpg" ><img alt="Mercado de San Miguel" src="http://farm6.static.flickr.com/5169/5317732849_e8c5116847_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.709034,40.415575</coordinates></Point>
+</Placemark>
+<Placemark><name>Mmmmm Cupcakes</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5007/5318326552_08f462da9f_z.jpg" ><img alt="Mmmmm Cupcakes" src="http://farm6.static.flickr.com/5007/5318326552_08f462da9f_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.709284,40.415347</coordinates></Point>
+</Placemark>
+<Placemark><name>Gran Madrid for Dinner</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5082/5317731335_02a370543a_z.jpg" ><img alt="Gran Madrid for Dinner" src="http://farm6.static.flickr.com/5082/5317731335_02a370543a_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.708717,40.417105</coordinates></Point>
+</Placemark>
+<Placemark><name>The Guys</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5046/5317730775_b0c7f9f4af_z.jpg" ><img alt="The Guys" src="http://farm6.static.flickr.com/5046/5317730775_b0c7f9f4af_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.708717,40.417105</coordinates></Point>
+</Placemark>
+<Placemark><name>Angelle's Coke Addiction</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5162/5317730373_707978dc81_z.jpg" ><img alt="Angelle's Coke Addiction" src="http://farm6.static.flickr.com/5162/5317730373_707978dc81_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.708717,40.417105</coordinates></Point>
+</Placemark>
+<Placemark><name>Figuring out the bill</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5123/5317727511_646c9ef1cc_z.jpg" ><img alt="Figuring out the bill" src="http://farm6.static.flickr.com/5123/5317727511_646c9ef1cc_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.708717,40.417105</coordinates></Point>
+</Placemark>
+<Placemark><name>Alley to the Chocolateria</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5202/5317726835_fcb8435bef_z.jpg" ><img alt="Alley to the Chocolateria" src="http://farm6.static.flickr.com/5202/5317726835_fcb8435bef_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.708717,40.417105</coordinates></Point>
+</Placemark>
+<Placemark><name>The best Chocolateria in Madrid</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5006/5318321148_2ab3d73e13_z.jpg" ><img alt="The best Chocolateria in Madrid" src="http://farm6.static.flickr.com/5006/5318321148_2ab3d73e13_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.708717,40.417105</coordinates></Point>
+</Placemark>
+<Placemark><name>Angelle Likes it</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5085/5317726053_8fcc813f58_z.jpg" ><img alt="Angelle Likes it" src="http://farm6.static.flickr.com/5085/5317726053_8fcc813f58_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.708717,40.417105</coordinates></Point>
+</Placemark>
+<Placemark><name>Maybe a little too sweet to drink straight</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5123/5318320242_5fa9a4d7d8_z.jpg" ><img alt="Maybe a little too sweet to drink straight" src="http://farm6.static.flickr.com/5123/5318320242_5fa9a4d7d8_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.708717,40.417105</coordinates></Point>
+</Placemark>
+<Placemark><name>Maybe not</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5207/5318319762_c0115cb216_z.jpg" ><img alt="Maybe not" src="http://farm6.static.flickr.com/5207/5318319762_c0115cb216_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.708717,40.417105</coordinates></Point>
+</Placemark>
+<Placemark><name>Chocolateria San Gines</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5201/5317724601_cde9f2b78c_z.jpg" ><img alt="Chocolateria San Gines" src="http://farm6.static.flickr.com/5201/5317724601_cde9f2b78c_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.708717,40.417105</coordinates></Point>
+</Placemark>
+<Placemark><name>Outside of the hotel</name>
+<description><![CDATA[
+<center><a href="http://farm6.static.flickr.com/5248/5318318798_534342ef91_z.jpg" ><img alt="Outside of the hotel" src="http://farm6.static.flickr.com/5248/5318318798_534342ef91_m.jpg"/></a></center>
+<p></p>
+]]></description>
+<Point><coordinates>-3.708717,40.417105</coordinates></Point>
+</Placemark></Document></kml>
