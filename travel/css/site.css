@@ -9,6 +9,15 @@ body {
   line-height: 21px;
   color: #ccc;
 }
+div.nextPrevPosts {
+  margin-top: 30px;
+}
+div.nextPrevPosts span.prev-post {
+  float: left;
+}
+div.nextPrevPosts span.next-post {
+  float: right;
+}
 div.width {
   width: 700px;
   margin: 0 auto;
