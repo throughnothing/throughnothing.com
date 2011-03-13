@@ -12,7 +12,7 @@ I'm William Wolf. I "run":run ("barefoot":bf), "photograph":photo, "write":write
 [run]http://www.dailymile.com/people/throughnothing#ref=tophd
 [bf]http://therunningbarefoot.com/
 [photo]http://photos.throughnothing.com
-[write]http://blog.throughnothing.com/
+[write]http://beless.net/
 [program]http://github.com/throughnothing
 [travel]http://travel.throughnothing.com
 [bike]http://www.dailymile.com/people/throughnothing#ref=tophd
