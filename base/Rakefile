@@ -3,7 +3,7 @@ task :default => [:"deploy:dev"]
 desc "deletes _site"
 task :delete do
 	puts "deleting _site"
-	system('rm -r _site')
+	#system('rm -r _site')
 	puts "deleting _site complete"
 end
 
@@ -12,14 +12,14 @@ namespace :build do
 	desc "build and deploy dev"
 	task :dev => [:delete] do
 		puts "building _site"
-		system('ejekyll --server 9000 --auto')
+		system('jekyll --server 9000 --auto')
 	end
 
 	desc "build pro"
 	task :prod => [:delete] do
 		puts "building _site"
 		puts "building production _site"
-		system('ejekyll')
+		system('jekyll')
 		puts "building _site complete"
 	end
 
