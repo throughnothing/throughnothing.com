@@ -12,14 +12,14 @@ namespace :build do
 	desc "build and deploy dev"
 	task :dev => [:delete] do
 		puts "building _site"
-		system('ejekyll --server 9000 --auto')
+		system('jekyll --server 9000 --auto')
 	end
 
 	desc "build pro"
 	task :prod => [:delete] do
 		puts "building _site"
 		puts "building production _site"
-		system('ejekyll')
+		system('jekyll')
 		puts "building _site complete"
 	end
 
@@ -27,7 +27,13 @@ end
 
 desc "rsync _site"
 task :rsync => :"build:prod" do
-	system('rsync -rz --delete _site/ throughnothing@throughnothing.com:/var/www/photos.throughnothing.com')
+    # Old system to slice
+	#system('rsync -rz --delete _site/ throughnothing@throughnothing.com:/var/www/photos.throughnothing.com')
+	system('mkdir -p /tmp/s3fs-photos.throughnothing.com')
+	system('s3fs photos.throughnothing.com /tmp/s3fs-photos.throughnothing.com -o use_rrs=1 -o default_acl=public-read')
+	system('jekyll --no-auto . /tmp/s3fs-photos.throughnothing.com')
+    system('fusermount -u /tmp/s3fs-photos.throughnothing.com')
+    system('rm -rf /mp/s3fs-photos.throughnothing.com')
 end
 
 desc "deploy the application"

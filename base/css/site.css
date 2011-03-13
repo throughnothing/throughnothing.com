@@ -7,24 +7,24 @@ body {
 	font-variant: small-caps;
 	margin: 60px auto;
 	width: 800px;
-	background-color: #1f1f21;
-	color: #777;
+	background-color: #FFF;
+	color: #444;
 }
 a { 
-	color: #bbb;
+	color: #ED6400;
 	text-decoration: none;
 }
 a:hover { 
-	color: #e55c00;
+	color: #999;
 	text-decoration: underline;
 }
 
 div.text { 
 	letter-spacing: 2px;
-	line-height: 24px;
+	line-height: 26px;
 	font-variant: normal;
 	text-align: left;
-	font-size: 18px;
+	font-size: 22px;
 }
 ul { 
 	padding: 0;
