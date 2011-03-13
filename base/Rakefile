@@ -32,7 +32,7 @@ task :rsync => :"build:prod" do
 	system('mkdir -p /tmp/s3fs-throughnothing.com')
 	system('s3fs throughnothing.com /tmp/s3fs-throughnothing.com -o use_rrs=1 -o default_acl=public-read')
 	system('jekyll --no-auto . /tmp/s3fs-throughnothing.com')
-    system('sudo fusermount -u /tmp/s3fs-throughnothing.com')
+    system('fusermount -u /tmp/s3fs-throughnothing.com')
     system('rm -rf /mp/s3fs-throughnothing.com')
 end
 
