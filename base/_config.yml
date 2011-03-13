@@ -3,7 +3,7 @@ category_dir: trips
 category_title_prefix: "Trips &raquo; "
 
 #Files to exclude
-exclude: Rakefile
+exclude: Rakefile,README.md
 
 paginate: 10 
 safe:        false
