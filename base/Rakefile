@@ -30,7 +30,7 @@ task :rsync => :"build:prod" do
     # Old system to slice
 	#system('rsync -rz --delete _site/ throughnothing@throughnothing.com:/var/www/throughnothing.com')
 	system('mkdir -p /tmp/s3fs-throughnothing.com')
-	system('s3fs www.throughnothing.com /tmp/s3fs-throughnothing.com -o use_rrs=1 -o default_acl=public-read')
+	system('s3fs throughnothing.com /tmp/s3fs-throughnothing.com -o use_rrs=1 -o default_acl=public-read')
 	system('jekyll --no-auto . /tmp/s3fs-throughnothing.com')
     system('fusermount -u /tmp/s3fs-throughnothing.com')
     system('rm -rf /mp/s3fs-throughnothing.com')
