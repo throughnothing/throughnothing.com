@@ -9,8 +9,8 @@ layout: nil
   <updated>{{ site.time| date_to_xmlschema }}</updated>
   <id>http://travel.throughnothing.com</id>
   <author>
-    <name>William Wolf and Angelle Stromeyer</name>
-    <email>throughnothing@gmail.com</email>
+    <name>travel</name>
+    <email></email>
   </author>
   {% for post in site.posts limit:20 %}
   <entry>
