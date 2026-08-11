@@ -8,22 +8,15 @@ jobs:
   build-deploy:
     name: Build and deploy
     runs-on: ubuntu-latest
-    env:
-      GHC_VERSION: '8.8.2'
     steps:
-      - name: Checkout dev
-        uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Build with 11ty
-        uses: TartanLlama/actions-eleventy@master
-        with:
-          install_dependencies: true
+      - name: Build with Eleventy
+        run: npx @11ty/eleventy
 
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3
