@@ -14,6 +14,12 @@ jobs:
       - name: Checkout dev
         uses: actions/checkout@master
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
       - name: Build with 11ty
         uses: TartanLlama/actions-eleventy@master
         with:
